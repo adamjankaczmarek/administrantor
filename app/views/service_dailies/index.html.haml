@@ -1,0 +1,23 @@
+%h1 Listing service_dailies
+%table
+  %thead
+    %tr
+      %th Type
+      %th Related
+      %th Cdscds
+      %th Sds
+      %th
+      %th
+      %th
+  %tbody
+    - @service_dailies.each do |service_daily|
+      %tr
+        %td= service_daily.type
+        %td= service_daily.related
+        %td= service_daily.cdscds
+        %td= service_daily.sds
+        %td= link_to 'Show', service_daily
+        %td= link_to 'Edit', edit_service_daily_path(service_daily)
+        %td= link_to 'Destroy', service_daily, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Service daily', new_service_daily_path

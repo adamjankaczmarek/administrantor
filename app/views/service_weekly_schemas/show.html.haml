@@ -1,0 +1,28 @@
+%p#notice= notice
+%p
+  %strong Sunday:
+  = @service_weekly_schema.sunday
+%p
+  %strong Monday:
+  = @service_weekly_schema.monday
+%p
+  %strong Tuesday:
+  = @service_weekly_schema.tuesday
+%p
+  %strong Wednesday:
+  = @service_weekly_schema.wednesday
+%p
+  %strong Thursday:
+  = @service_weekly_schema.thursday
+%p
+  %strong Friday:
+  = @service_weekly_schema.friday
+%p
+  %strong Saturday:
+  = @service_weekly_schema.saturday
+%p
+  %strong Name:
+  = @service_weekly_schema.name
+= link_to 'Edit', edit_service_weekly_schema_path(@service_weekly_schema)
+|
+\#{link_to 'Back', service_weekly_schemas_path}

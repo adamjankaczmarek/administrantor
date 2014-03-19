@@ -1,0 +1,16 @@
+%p#notice= notice
+%p
+  %strong Type:
+  = @service_daily.service_type.name
+%p
+  %strong Related:
+  = @service_daily.related
+%p
+  %strong Celebration Daily:
+  = @service_daily.celebration_daily
+%p
+  %strong Service Daily Schema:
+  = @service_daily.service_daily_schema.name
+= link_to 'Edit', edit_service_daily_path(@service_daily)
+|
+\#{link_to 'Back', service_dailies_path}

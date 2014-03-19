@@ -1,0 +1,43 @@
+= form_for(@service_weekly_schema) do |f|
+  - if @service_weekly_schema.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@service_weekly_schema.errors.count, "error")
+        prohibited this service_weekly_schema from being saved:
+      %ul
+        - @service_weekly_schema.errors.full_messages.each do |msg|
+          %li= msg
+  .field
+    = f.label :sunday
+    %br/
+    = f.text_field :sunday
+  .field
+    = f.label :monday
+    %br/
+    = f.text_field :monday
+  .field
+    = f.label :tuesday
+    %br/
+    = f.text_field :tuesday
+  .field
+    = f.label :wednesday
+    %br/
+    = f.text_field :wednesday
+  .field
+    = f.label :thursday
+    %br/
+    = f.text_field :thursday
+  .field
+    = f.label :friday
+    %br/
+    = f.text_field :friday
+  .field
+    = f.label :saturday
+    %br/
+    = f.text_field :saturday
+  .field
+    = f.label :name
+    %br/
+    = f.text_field :name
+  .actions
+    = f.submit

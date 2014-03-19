@@ -1,0 +1,23 @@
+%h1 Listing weekly_plans
+%table
+  %thead
+    %tr
+      %th Name
+      %th Celebration
+      %th Service
+      %th Duty
+      %th
+      %th
+      %th
+  %tbody
+    - @weekly_plans.each do |weekly_plan|
+      %tr
+        %td= weekly_plan.name
+        %td= weekly_plan.celebration
+        %td= weekly_plan.service
+        %td= weekly_plan.duty
+        %td= link_to 'Show', weekly_plan
+        %td= link_to 'Edit', edit_weekly_plan_path(weekly_plan)
+        %td= link_to 'Destroy', weekly_plan, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Weekly plan', new_weekly_plan_path

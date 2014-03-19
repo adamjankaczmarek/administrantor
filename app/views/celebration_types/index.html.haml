@@ -1,0 +1,17 @@
+%h1 Listing celebration_types
+%table
+  %thead
+    %tr
+      %th Name
+      %th
+      %th
+      %th
+  %tbody
+    - @celebration_types.each do |celebration_type|
+      %tr
+        %td= celebration_type.name
+        %td= link_to 'Show', celebration_type
+        %td= link_to 'Edit', edit_celebration_type_path(celebration_type)
+        %td= link_to 'Destroy', celebration_type, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Celebration type', new_celebration_type_path

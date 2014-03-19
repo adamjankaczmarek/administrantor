@@ -1,0 +1,9 @@
+= simple_form_for @celebration_daily_schema do |f|
+  = f.input :name
+  %h3 Celebrations
+  #tasks
+    = f.simple_fields_for :celebration_dailies do |celebration|
+      = render 'celebration_daily_fields', :f => celebration
+    .links
+      = link_to_add_association 'add celebration', f, :celebration_dailies
+  = f.submit

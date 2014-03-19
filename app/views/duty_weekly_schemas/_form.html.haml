@@ -1,0 +1,31 @@
+= simple_form_for(@duty_weekly_schema) do |f|
+  = f.input :name
+  %h3 Sunday
+  = f.simple_fields_for :sunday do |sunday|
+    = render 'duty_daily_schema_fields', :f => sunday
+
+  %h3 Monday
+  = f.simple_fields_for :monday do |monday|
+    = render 'duty_daily_schema_fields', :f => monday
+
+  %h3 Tuesday
+  = f.simple_fields_for :tuesday do |tuesday|
+    = render 'duty_daily_schema_fields', :f => tuesday
+
+  %h3 Wednesday
+  = f.simple_fields_for :wednesday do |wednesday|
+    = render 'duty_daily_schema_fields', :f => wednesday
+
+  %h3 Thursday
+  = f.simple_fields_for :thursday do |thursday|
+    = render 'duty_daily_schema_fields', :f => thursday
+
+  %h3 Friday
+  = f.simple_fields_for :friday do |friday|
+    = render 'duty_daily_schema_fields', :f => friday
+
+  %h3 Saturday
+  = f.simple_fields_for :saturday do |saturday|
+    = render 'duty_daily_schema_fields', :f => saturday
+
+  = f.submit

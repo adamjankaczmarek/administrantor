@@ -1,0 +1,40 @@
+== MODEL ASSUMPTIONS
+
+-- Ministrant
+AltarBoy - Podstawowy model ministranta
+AltarBoyData - Dane dodatkowe(kontakt, pesel, etc.)
+
+-- Celebracje 
+
+CelebrationWeeklySchema - tygodniowy schemat celebracji (nazwa, sun, mon, tue, wed, thu, fri, sat)
+
+CelebrationDailySchema (nazwa schematu)
+
+[Helper N-M relation] CelebrationDailySchemaCelebration - (identyfikator CelebrationSchema, identyfikator Celebration)
+
+CelebrationDaily - celebracja "atomowa" sprawowana w jeden dzień - (nazwa, godzina, typ)
+
+CelebrationType - typ celebracji
+
+-- Służba
+ServiceWeeklySchema - tygodniowy plan służby - (identyfikator, identyfikator CelebrationWeeklySchema, powiązane rekordy ServiceDailySchema)
+
+[Helper N-M relation] ServiceWeeklySchemaDailySchema - (identyfikator WeeklySchema, identyfikator DailySchema)
+
+ServiceDailySchema - dzienny plan służby (identyfikator i powiązene rekordy Service)
+
+Service - pojedyncza służba (identyfikator, identyfikator ServiceDailySchema, identyfikator CelebrationDailySchemaCelebration,
+1służba "zombie/klon", typ(stała/grupowa))
+
+ServiceType
+
+
+#ServiceBinding - łączona służba (np. nieszpory i msza, różaniec i msza)
+
+-- Rozliczenia
+
+
+-- Taryfikator
+
+Tariff - Taryfikator rozliczeniowy (identyfikator, nazwa)
+TariffTypePoints - wpisy taryfikatora (identyfikator taryfikatora, typ celebracji, punkty za obecność obow/dod oraz nieobecność)

@@ -1,0 +1,10 @@
+%p#notice= notice
+%p
+  %strong Altar boy:
+  = @altar_boy_duty.altar_boy
+%p
+  %strong Duty:
+  = @altar_boy_duty.duty
+= link_to 'Edit', edit_altar_boy_duty_path(@altar_boy_duty)
+|
+\#{link_to 'Back', altar_boy_duties_path}

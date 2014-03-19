@@ -1,0 +1,21 @@
+%h1 Listing celebration_dailies
+%table
+  %thead
+    %tr
+      %th Name
+      %th Hour
+      %th Celebration type
+      %th
+      %th
+      %th
+  %tbody
+    - @celebration_dailies.each do |celebration_daily|
+      %tr
+        %td= celebration_daily.name
+        %td= celebration_daily.hour
+        %td= celebration_daily.celebration_type
+        %td= link_to 'Show', celebration_daily
+        %td= link_to 'Edit', edit_celebration_daily_path(celebration_daily)
+        %td= link_to 'Destroy', celebration_daily, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Celebration daily', new_celebration_daily_path

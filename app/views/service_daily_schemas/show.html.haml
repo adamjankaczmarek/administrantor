@@ -1,0 +1,16 @@
+%p#notice= notice
+%p
+  %strong Celebration daily schema:
+  = @service_daily_schema.celebration_daily_schema
+%p
+  %strong Name:
+  = @service_daily_schema.name
+
+.service_dailies
+  = @service_daily_schema.service_dailies.each do |service_daily|
+    = render 'service_daily', :service_daily => service_daily
+
+
+= link_to 'Edit', edit_service_daily_schema_path(@service_daily_schema)
+|
+\#{link_to 'Back', service_daily_schemas_path}

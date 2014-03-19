@@ -1,0 +1,10 @@
+%p#notice= notice
+%p
+  %strong Duty daily schema:
+  = @duty_daily.duty_daily_schema
+%p
+  %strong Service daily:
+  = @duty_daily.service_daily
+= link_to 'Edit', edit_duty_daily_path(@duty_daily)
+|
+\#{link_to 'Back', duty_dailies_path}

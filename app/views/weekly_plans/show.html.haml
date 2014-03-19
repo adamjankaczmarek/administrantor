@@ -1,0 +1,16 @@
+%p#notice= notice
+%p
+  %strong Name:
+  = @weekly_plan.name
+%p
+  %strong Celebration:
+  = @weekly_plan.celebration
+%p
+  %strong Service:
+  = @weekly_plan.service
+%p
+  %strong Duty:
+  = @weekly_plan.duty
+= link_to 'Edit', edit_weekly_plan_path(@weekly_plan)
+|
+\#{link_to 'Back', weekly_plans_path}

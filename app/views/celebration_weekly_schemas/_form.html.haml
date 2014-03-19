@@ -1,0 +1,18 @@
+= simple_form_for(@celebration_weekly_schema) do |f|
+  - if @celebration_weekly_schema.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@celebration_weekly_schema.errors.count, "error")
+        prohibited this celebration_weekly_schema from being saved:
+      %ul
+        - @celebration_weekly_schema.errors.full_messages.each do |msg|
+          %li= msg
+  = f.input :name
+  = f.association :sunday
+  = f.association :monday
+  = f.association :tuesday
+  = f.association :wednesday
+  = f.association :thursday
+  = f.association :friday
+  = f.association :saturday
+  = f.submit

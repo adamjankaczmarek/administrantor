@@ -1,0 +1,31 @@
+%h1 Listing celebration_weekly_schemas
+%table
+  %thead
+    %tr
+      %th Name
+      %th Sunday
+      %th Monday
+      %th Tuesday
+      %th Wednesday
+      %th Thursday
+      %th Friday
+      %th Saturday
+      %th
+      %th
+      %th
+  %tbody
+    - @celebration_weekly_schemas.each do |celebration_weekly_schema|
+      %tr
+        %td= celebration_weekly_schema.name
+        %td= celebration_weekly_schema.sunday
+        %td= celebration_weekly_schema.monday
+        %td= celebration_weekly_schema.tuesday
+        %td= celebration_weekly_schema.wednesday
+        %td= celebration_weekly_schema.thursday
+        %td= celebration_weekly_schema.friday
+        %td= celebration_weekly_schema.saturday
+        %td= link_to 'Show', celebration_weekly_schema
+        %td= link_to 'Edit', edit_celebration_weekly_schema_path(celebration_weekly_schema)
+        %td= link_to 'Destroy', celebration_weekly_schema, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Celebration weekly schema', new_celebration_weekly_schema_path

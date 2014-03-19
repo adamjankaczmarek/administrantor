@@ -1,0 +1,19 @@
+%h1 Listing altar_boy_duties
+%table
+  %thead
+    %tr
+      %th Altar boy
+      %th Duty
+      %th
+      %th
+      %th
+  %tbody
+    - @altar_boy_duties.each do |altar_boy_duty|
+      %tr
+        %td= altar_boy_duty.altar_boy
+        %td= altar_boy_duty.duty_daily
+        %td= link_to 'Show', altar_boy_duty
+        %td= link_to 'Edit', edit_altar_boy_duty_path(altar_boy_duty)
+        %td= link_to 'Destroy', altar_boy_duty, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Altar boy duty', new_altar_boy_duty_path

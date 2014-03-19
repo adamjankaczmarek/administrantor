@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails administrantor: development" uuid="d9dc9fda-4b06-40b5-aa70-605e3e3bda81">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails administrantor: test" uuid="869d1db7-3b8e-4ce4-a4ff-5bd71178183d">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails administrantor: cucumber" uuid="c16bdd0a-4c15-4df2-bb11-38437eb6ec83">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

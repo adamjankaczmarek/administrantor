@@ -1,0 +1,17 @@
+%h1 Listing celebration_daily_schemas
+%table
+  %thead
+    %tr
+      %th Name
+      %th
+      %th
+      %th
+  %tbody
+    - @celebration_daily_schemas.each do |celebration_daily_schema|
+      %tr
+        %td= celebration_daily_schema.name
+        %td= link_to 'Show', celebration_daily_schema
+        %td= link_to 'Edit', edit_celebration_daily_schema_path(celebration_daily_schema)
+        %td= link_to 'Destroy', celebration_daily_schema, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Celebration daily schema', new_celebration_daily_schema_path

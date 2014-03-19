@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Altar boy:</strong>
+  <%= @presence.altar_boy %>
+</p>
+
+<p>
+  <strong>Service daily:</strong>
+  <%= @presence.service_daily %>
+</p>
+
+<p>
+  <strong>Day:</strong>
+  <%= @presence.day %>
+</p>
+
+<p>
+  <strong>Week:</strong>
+  <%= @presence.week %>
+</p>
+
+<%= link_to 'Edit', edit_presence_path(@presence) %> |
+<%= link_to 'Back', presences_path %>

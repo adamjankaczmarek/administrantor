@@ -1,0 +1,19 @@
+%h1 Listing duty_dailies
+%table
+  %thead
+    %tr
+      %th Duty daily schema
+      %th Service daily
+      %th
+      %th
+      %th
+  %tbody
+    - @duty_dailies.each do |duty_daily|
+      %tr
+        %td= duty_daily.duty_daily_schema
+        %td= duty_daily.service_daily
+        %td= link_to 'Show', duty_daily
+        %td= link_to 'Edit', edit_duty_daily_path(duty_daily)
+        %td= link_to 'Destroy', duty_daily, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Duty daily', new_duty_daily_path

@@ -1,0 +1,6 @@
+.nested-fields
+  = f.input :service_daily, as: :fake, label: "::"
+  #altar_boys
+    = f.simple_fields_for :altar_boy_duties do |altar_boy_duty|
+      = render 'altar_boy_duty_fields', :f => altar_boy_duty
+    = link_to_add_association 'add an altar boy', f, :altar_boy_duties

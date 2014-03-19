@@ -1,0 +1,13 @@
+%h1 Editing service_daily_schema
+
+%h3= @service_daily_schema.name
+%h3= @service_daily_schema.celebration_daily_schema.name
+
+= simple_form_for @service_daily_schema do |f|
+  %h3 Service Dailies
+  #service_dailies
+    = f.simple_fields_for :service_dailies do |service_daily|
+      = render 'service_daily_fields', :f => service_daily, :id => "aaa"
+    .links
+      = link_to_add_association 'add sd', f, :service_dailies
+  = f.submit

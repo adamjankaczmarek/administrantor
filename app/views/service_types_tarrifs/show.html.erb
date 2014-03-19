@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Service type:</strong>
+  <%= @service_types_tarrif.service_type %>
+</p>
+
+<p>
+  <strong>Tarrif:</strong>
+  <%= @service_types_tarrif.tarrif %>
+</p>
+
+<p>
+  <strong>Points:</strong>
+  <%= @service_types_tarrif.points %>
+</p>
+
+<%= link_to 'Edit', edit_service_types_tarrif_path(@service_types_tarrif) %> |
+<%= link_to 'Back', service_types_tarrifs_path %>

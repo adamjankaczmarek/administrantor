@@ -1,0 +1,2 @@
+module CelebrationTypesHelper
+end

@@ -1,0 +1,17 @@
+%h1 Listing duty_weekly_schemas
+%table
+  %thead
+    %tr
+      %th Name
+      %th
+      %th
+      %th
+  %tbody
+    - @duty_weekly_schemas.each do |duty_weekly_schema|
+      %tr
+        %td= duty_weekly_schema.name
+        %td= link_to 'Show', duty_weekly_schema
+        %td= link_to 'Edit', edit_duty_weekly_schema_path(duty_weekly_schema)
+        %td= link_to 'Destroy', duty_weekly_schema, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Duty weekly schema', new_duty_weekly_schema_path

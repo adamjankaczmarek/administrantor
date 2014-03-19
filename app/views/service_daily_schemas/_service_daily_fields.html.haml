@@ -1,0 +1,4 @@
+.nested-fields
+  %strong= f.input :celebration_daily, :as => :fake
+  = f.association :service_type
+  = f.association :related, collection: ServiceDaily.where(service_daily_schema_id: @service_daily_schema.id)

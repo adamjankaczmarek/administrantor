@@ -1,0 +1,2 @@
+module ServiceTypesTarrifsHelper
+end

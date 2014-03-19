@@ -1,0 +1,2 @@
+module DutyWeeklySchemasHelper
+end

@@ -1,0 +1,13 @@
+%p#notice= notice
+%p
+  %strong Name:
+  = @celebration_daily.name
+%p
+  %strong Hour:
+  = @celebration_daily.hour
+%p
+  %strong Celebration type:
+  = @celebration_daily.celebration_type
+= link_to 'Edit', edit_celebration_daily_path(@celebration_daily)
+|
+\#{link_to 'Back', celebration_dailies_path}

@@ -1,0 +1,1151 @@
+1395149366
+AddServiceWeeklySchemaToDutyWeeklySchema	/home/adam/workspace/rails/administrantor/db/migrate/20140101235632_add_service_weekly_schema_to_duty_weekly_schema.rb	class AddServiceWeeklySchemaToDutyWeeklySchema 
+Administrantor	/home/adam/workspace/rails/administrantor/config/application.rb	module Administrantor
+AltarBoy	/home/adam/workspace/rails/administrantor/app/models/altar_boy.rb	class AltarBoy 
+AltarBoyDuties	/home/adam/workspace/rails/administrantor/spec/requests/altar_boy_duties_spec.rb	describe "AltarBoyDuties" do
+AltarBoyDutiesController	/home/adam/workspace/rails/administrantor/app/controllers/altar_boy_duties_controller.rb	class AltarBoyDutiesController 
+AltarBoyDutiesHelper	/home/adam/workspace/rails/administrantor/app/helpers/altar_boy_duties_helper.rb	module AltarBoyDutiesHelper
+AltarBoyDuty	/home/adam/workspace/rails/administrantor/app/models/altar_boy_duty.rb	class AltarBoyDuty 
+AltarBoyTest	/home/adam/workspace/rails/administrantor/test/unit/altar_boy_test.rb	class AltarBoyTest 
+AltarBoys	/home/adam/workspace/rails/administrantor/spec/requests/altar_boys_spec.rb	describe "AltarBoys" do
+AltarBoys list	/home/adam/workspace/rails/administrantor/features/manage_altarboys.feature	Scenario: AltarBoys list
+AltarBoysController	/home/adam/workspace/rails/administrantor/app/controllers/altar_boys_controller.rb	class AltarBoysController 
+AltarBoysControllerTest	/home/adam/workspace/rails/administrantor/test/functional/altar_boys_controller_test.rb	class AltarBoysControllerTest 
+AltarBoysHelper	/home/adam/workspace/rails/administrantor/app/helpers/altar_boys_helper.rb	module AltarBoysHelper
+Application	/home/adam/workspace/rails/administrantor/config/application.rb	  class Application 
+ApplicationController	/home/adam/workspace/rails/administrantor/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/home/adam/workspace/rails/administrantor/app/helpers/application_helper.rb	module ApplicationHelper
+CelebrationDailies	/home/adam/workspace/rails/administrantor/spec/requests/celebration_dailies_spec.rb	describe "CelebrationDailies" do
+CelebrationDailiesController	/home/adam/workspace/rails/administrantor/app/controllers/celebration_dailies_controller.rb	class CelebrationDailiesController 
+CelebrationDailiesHelper	/home/adam/workspace/rails/administrantor/app/helpers/celebration_dailies_helper.rb	module CelebrationDailiesHelper
+CelebrationDaily	/home/adam/workspace/rails/administrantor/app/models/celebration_daily.rb	class CelebrationDaily 
+CelebrationDailySchema	/home/adam/workspace/rails/administrantor/app/models/celebration_daily_schema.rb	class CelebrationDailySchema 
+CelebrationDailySchemas	/home/adam/workspace/rails/administrantor/spec/requests/celebration_daily_schemas_spec.rb	describe "CelebrationDailySchemas" do
+CelebrationDailySchemasController	/home/adam/workspace/rails/administrantor/app/controllers/celebration_daily_schemas_controller.rb	class CelebrationDailySchemasController 
+CelebrationDailySchemasHelper	/home/adam/workspace/rails/administrantor/app/helpers/celebration_daily_schemas_helper.rb	module CelebrationDailySchemasHelper
+CelebrationType	/home/adam/workspace/rails/administrantor/app/models/celebration_type.rb	class CelebrationType 
+CelebrationTypes	/home/adam/workspace/rails/administrantor/spec/requests/celebration_types_spec.rb	describe "CelebrationTypes" do
+CelebrationTypesController	/home/adam/workspace/rails/administrantor/app/controllers/celebration_types_controller.rb	class CelebrationTypesController 
+CelebrationTypesHelper	/home/adam/workspace/rails/administrantor/app/helpers/celebration_types_helper.rb	module CelebrationTypesHelper
+CelebrationWeeklySchema	/home/adam/workspace/rails/administrantor/app/models/celebration_weekly_schema.rb	class CelebrationWeeklySchema 
+CelebrationWeeklySchemas	/home/adam/workspace/rails/administrantor/spec/requests/celebration_weekly_schemas_spec.rb	describe "CelebrationWeeklySchemas" do
+CelebrationWeeklySchemasController	/home/adam/workspace/rails/administrantor/app/controllers/celebration_weekly_schemas_controller.rb	class CelebrationWeeklySchemasController 
+CelebrationWeeklySchemasHelper	/home/adam/workspace/rails/administrantor/app/helpers/celebration_weekly_schemas_helper.rb	module CelebrationWeeklySchemasHelper
+CreateAltarBoyDuties	/home/adam/workspace/rails/administrantor/db/migrate/20131229004351_create_altar_boy_duties.rb	class CreateAltarBoyDuties 
+CreateAltarBoys	/home/adam/workspace/rails/administrantor/db/migrate/20140102130308_create_altar_boys.rb	class CreateAltarBoys 
+CreateCelebrationDailies	/home/adam/workspace/rails/administrantor/db/migrate/20131130205842_create_celebration_dailies.rb	class CreateCelebrationDailies 
+CreateCelebrationDailySchemas	/home/adam/workspace/rails/administrantor/db/migrate/20131201010441_create_celebration_daily_schemas.rb	class CreateCelebrationDailySchemas 
+CreateCelebrationTypes	/home/adam/workspace/rails/administrantor/db/migrate/20131130205802_create_celebration_types.rb	class CreateCelebrationTypes 
+CreateCelebrationWeeklySchemas	/home/adam/workspace/rails/administrantor/db/migrate/20131201170907_create_celebration_weekly_schemas.rb	class CreateCelebrationWeeklySchemas 
+CreateDutyDailies	/home/adam/workspace/rails/administrantor/db/migrate/20131229000349_create_duty_dailies.rb	class CreateDutyDailies 
+CreateDutyDailySchemas	/home/adam/workspace/rails/administrantor/db/migrate/20131229000008_create_duty_daily_schemas.rb	class CreateDutyDailySchemas 
+CreateDutyWeeklySchemas	/home/adam/workspace/rails/administrantor/db/migrate/20131208150450_create_duty_weekly_schemas.rb	class CreateDutyWeeklySchemas 
+CreatePresences	/home/adam/workspace/rails/administrantor/db/migrate/20140103002409_create_presences.rb	class CreatePresences 
+CreateServiceDailies	/home/adam/workspace/rails/administrantor/db/migrate/20131208115940_create_service_dailies.rb	class CreateServiceDailies 
+CreateServiceDailySchemas	/home/adam/workspace/rails/administrantor/db/migrate/20131208115135_create_service_daily_schemas.rb	class CreateServiceDailySchemas 
+CreateServiceTypes	/home/adam/workspace/rails/administrantor/db/migrate/20131231151422_create_service_types.rb	class CreateServiceTypes 
+CreateServiceTypesTarrifs	/home/adam/workspace/rails/administrantor/db/migrate/20140102212221_create_service_types_tarrifs.rb	class CreateServiceTypesTarrifs 
+CreateServiceWeeklySchemas	/home/adam/workspace/rails/administrantor/db/migrate/20131208122404_create_service_weekly_schemas.rb	class CreateServiceWeeklySchemas 
+CreateTariffs	/home/adam/workspace/rails/administrantor/db/migrate/20140102211852_create_tariffs.rb	class CreateTariffs 
+CreateWeeklyPlans	/home/adam/workspace/rails/administrantor/db/migrate/20131229021851_create_weekly_plans.rb	class CreateWeeklyPlans 
+CreateWeeks	/home/adam/workspace/rails/administrantor/db/migrate/20140103002222_create_weeks.rb	class CreateWeeks 
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	describe "DELETE destroy" do
+DELETE destroy	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	describe "DELETE destroy" do
+DutyDailies	/home/adam/workspace/rails/administrantor/spec/requests/duty_dailies_spec.rb	describe "DutyDailies" do
+DutyDailiesController	/home/adam/workspace/rails/administrantor/app/controllers/duty_dailies_controller.rb	class DutyDailiesController 
+DutyDailiesHelper	/home/adam/workspace/rails/administrantor/app/helpers/duty_dailies_helper.rb	module DutyDailiesHelper
+DutyDaily	/home/adam/workspace/rails/administrantor/app/models/duty_daily.rb	class DutyDaily 
+DutyDailySchema	/home/adam/workspace/rails/administrantor/app/models/duty_daily_schema.rb	class DutyDailySchema 
+DutyDailySchemas	/home/adam/workspace/rails/administrantor/spec/requests/duty_daily_schemas_spec.rb	describe "DutyDailySchemas" do
+DutyDailySchemasController	/home/adam/workspace/rails/administrantor/app/controllers/duty_daily_schemas_controller.rb	class DutyDailySchemasController 
+DutyDailySchemasHelper	/home/adam/workspace/rails/administrantor/app/helpers/duty_daily_schemas_helper.rb	module DutyDailySchemasHelper
+DutyWeeklySchema	/home/adam/workspace/rails/administrantor/app/models/duty_weekly_schema.rb	class DutyWeeklySchema 
+DutyWeeklySchemas	/home/adam/workspace/rails/administrantor/spec/requests/duty_weekly_schemas_spec.rb	describe "DutyWeeklySchemas" do
+DutyWeeklySchemasController	/home/adam/workspace/rails/administrantor/app/controllers/duty_weekly_schemas_controller.rb	class DutyWeeklySchemasController 
+DutyWeeklySchemasHelper	/home/adam/workspace/rails/administrantor/app/helpers/duty_weekly_schemas_helper.rb	module DutyWeeklySchemasHelper
+FakeInput	/home/adam/workspace/rails/administrantor/app/inputs/fake_input.rb	class FakeInput 
+GET /altar_boy_duties	/home/adam/workspace/rails/administrantor/spec/requests/altar_boy_duties_spec.rb	describe "GET /altar_boy_duties" do
+GET /altar_boys	/home/adam/workspace/rails/administrantor/spec/requests/altar_boys_spec.rb	describe "GET /altar_boys" do
+GET /celebration_dailies	/home/adam/workspace/rails/administrantor/spec/requests/celebration_dailies_spec.rb	describe "GET /celebration_dailies" do
+GET /celebration_daily_schemas	/home/adam/workspace/rails/administrantor/spec/requests/celebration_daily_schemas_spec.rb	describe "GET /celebration_daily_schemas" do
+GET /celebration_types	/home/adam/workspace/rails/administrantor/spec/requests/celebration_types_spec.rb	describe "GET /celebration_types" do
+GET /celebration_weekly_schemas	/home/adam/workspace/rails/administrantor/spec/requests/celebration_weekly_schemas_spec.rb	describe "GET /celebration_weekly_schemas" do
+GET /duty_dailies	/home/adam/workspace/rails/administrantor/spec/requests/duty_dailies_spec.rb	describe "GET /duty_dailies" do
+GET /duty_daily_schemas	/home/adam/workspace/rails/administrantor/spec/requests/duty_daily_schemas_spec.rb	describe "GET /duty_daily_schemas" do
+GET /duty_weekly_schemas	/home/adam/workspace/rails/administrantor/spec/requests/duty_weekly_schemas_spec.rb	describe "GET /duty_weekly_schemas" do
+GET /presences	/home/adam/workspace/rails/administrantor/spec/requests/presences_spec.rb	describe "GET /presences" do
+GET /service_dailies	/home/adam/workspace/rails/administrantor/spec/requests/service_dailies_spec.rb	describe "GET /service_dailies" do
+GET /service_daily_schemas	/home/adam/workspace/rails/administrantor/spec/requests/service_daily_schemas_spec.rb	describe "GET /service_daily_schemas" do
+GET /service_types	/home/adam/workspace/rails/administrantor/spec/requests/service_types_spec.rb	describe "GET /service_types" do
+GET /service_types_tarrifs	/home/adam/workspace/rails/administrantor/spec/requests/service_types_tarrifs_spec.rb	describe "GET /service_types_tarrifs" do
+GET /service_weekly_schemas	/home/adam/workspace/rails/administrantor/spec/requests/service_weekly_schemas_spec.rb	describe "GET /service_weekly_schemas" do
+GET /tariffs	/home/adam/workspace/rails/administrantor/spec/requests/tariffs_spec.rb	describe "GET /tariffs" do
+GET /weekly_plans	/home/adam/workspace/rails/administrantor/spec/requests/weekly_plans_spec.rb	describe "GET /weekly_plans" do
+GET /weeks	/home/adam/workspace/rails/administrantor/spec/requests/weeks_spec.rb	describe "GET /weeks" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	describe "GET edit" do
+GET edit	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	describe "GET edit" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	describe "GET index" do
+GET index	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	describe "GET index" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	describe "GET new" do
+GET new	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	describe "GET new" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	describe "GET show" do
+GET show	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	describe "GET show" do
+Manage AltarBoys	/home/adam/workspace/rails/administrantor/features/manage_altarboys.feature	Feature: Manage AltarBoys
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	describe "POST create" do
+POST create	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	describe "POST create" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	describe "PUT update" do
+PUT update	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	describe "PUT update" do
+Presence	/home/adam/workspace/rails/administrantor/app/models/presence.rb	class Presence 
+Presences	/home/adam/workspace/rails/administrantor/spec/requests/presences_spec.rb	describe "Presences" do
+PresencesController	/home/adam/workspace/rails/administrantor/app/controllers/presences_controller.rb	class PresencesController 
+PresencesHelper	/home/adam/workspace/rails/administrantor/app/helpers/presences_helper.rb	module PresencesHelper
+ServiceDailies	/home/adam/workspace/rails/administrantor/spec/requests/service_dailies_spec.rb	describe "ServiceDailies" do
+ServiceDailiesController	/home/adam/workspace/rails/administrantor/app/controllers/service_dailies_controller.rb	class ServiceDailiesController 
+ServiceDailiesHelper	/home/adam/workspace/rails/administrantor/app/helpers/service_dailies_helper.rb	module ServiceDailiesHelper
+ServiceDaily	/home/adam/workspace/rails/administrantor/app/models/service_daily.rb	class ServiceDaily 
+ServiceDailySchema	/home/adam/workspace/rails/administrantor/app/models/service_daily_schema.rb	class ServiceDailySchema 
+ServiceDailySchemas	/home/adam/workspace/rails/administrantor/spec/requests/service_daily_schemas_spec.rb	describe "ServiceDailySchemas" do
+ServiceDailySchemasController	/home/adam/workspace/rails/administrantor/app/controllers/service_daily_schemas_controller.rb	class ServiceDailySchemasController 
+ServiceDailySchemasHelper	/home/adam/workspace/rails/administrantor/app/helpers/service_daily_schemas_helper.rb	module ServiceDailySchemasHelper
+ServiceType	/home/adam/workspace/rails/administrantor/app/models/service_type.rb	class ServiceType 
+ServiceTypes	/home/adam/workspace/rails/administrantor/spec/requests/service_types_spec.rb	describe "ServiceTypes" do
+ServiceTypesController	/home/adam/workspace/rails/administrantor/app/controllers/service_types_controller.rb	class ServiceTypesController 
+ServiceTypesHelper	/home/adam/workspace/rails/administrantor/app/helpers/service_types_helper.rb	module ServiceTypesHelper
+ServiceTypesTarrif	/home/adam/workspace/rails/administrantor/app/models/service_types_tarrif.rb	class ServiceTypesTarrif 
+ServiceTypesTarrifs	/home/adam/workspace/rails/administrantor/spec/requests/service_types_tarrifs_spec.rb	describe "ServiceTypesTarrifs" do
+ServiceTypesTarrifsController	/home/adam/workspace/rails/administrantor/app/controllers/service_types_tarrifs_controller.rb	class ServiceTypesTarrifsController 
+ServiceTypesTarrifsHelper	/home/adam/workspace/rails/administrantor/app/helpers/service_types_tarrifs_helper.rb	module ServiceTypesTarrifsHelper
+ServiceWeeklySchema	/home/adam/workspace/rails/administrantor/app/models/service_weekly_schema.rb	class ServiceWeeklySchema 
+ServiceWeeklySchemas	/home/adam/workspace/rails/administrantor/spec/requests/service_weekly_schemas_spec.rb	describe "ServiceWeeklySchemas" do
+ServiceWeeklySchemasController	/home/adam/workspace/rails/administrantor/app/controllers/service_weekly_schemas_controller.rb	class ServiceWeeklySchemasController 
+ServiceWeeklySchemasHelper	/home/adam/workspace/rails/administrantor/app/helpers/service_weekly_schemas_helper.rb	module ServiceWeeklySchemasHelper
+Tariff	/home/adam/workspace/rails/administrantor/app/models/tariff.rb	class Tariff 
+Tariffs	/home/adam/workspace/rails/administrantor/spec/requests/tariffs_spec.rb	describe "Tariffs" do
+TariffsController	/home/adam/workspace/rails/administrantor/app/controllers/tariffs_controller.rb	class TariffsController 
+TariffsHelper	/home/adam/workspace/rails/administrantor/app/helpers/tariffs_helper.rb	module TariffsHelper
+TestCase	/home/adam/workspace/rails/administrantor/test/test_helper.rb	class ActiveSupport::TestCase
+Week	/home/adam/workspace/rails/administrantor/app/models/week.rb	class Week 
+WeeklyPlan	/home/adam/workspace/rails/administrantor/app/models/weekly_plan.rb	class WeeklyPlan 
+WeeklyPlans	/home/adam/workspace/rails/administrantor/spec/requests/weekly_plans_spec.rb	describe "WeeklyPlans" do
+WeeklyPlansController	/home/adam/workspace/rails/administrantor/app/controllers/weekly_plans_controller.rb	class WeeklyPlansController 
+WeeklyPlansHelper	/home/adam/workspace/rails/administrantor/app/helpers/weekly_plans_helper.rb	module WeeklyPlansHelper
+Weeks	/home/adam/workspace/rails/administrantor/spec/requests/weeks_spec.rb	describe "Weeks" do
+WeeksController	/home/adam/workspace/rails/administrantor/app/controllers/weeks_controller.rb	class WeeksController 
+WeeksHelper	/home/adam/workspace/rails/administrantor/app/helpers/weeks_helper.rb	module WeeksHelper
+altar_boy_duties/edit	/home/adam/workspace/rails/administrantor/spec/views/altar_boy_duties/edit.html.erb_spec.rb	describe "altar_boy_duties/edit" do
+altar_boy_duties/index	/home/adam/workspace/rails/administrantor/spec/views/altar_boy_duties/index.html.erb_spec.rb	describe "altar_boy_duties/index" do
+altar_boy_duties/new	/home/adam/workspace/rails/administrantor/spec/views/altar_boy_duties/new.html.erb_spec.rb	describe "altar_boy_duties/new" do
+altar_boy_duties/show	/home/adam/workspace/rails/administrantor/spec/views/altar_boy_duties/show.html.erb_spec.rb	describe "altar_boy_duties/show" do
+altar_boy_duty_params	/home/adam/workspace/rails/administrantor/app/controllers/altar_boy_duties_controller.rb	    def altar_boy_duty_params
+altar_boy_params	/home/adam/workspace/rails/administrantor/app/controllers/altar_boys_controller.rb	    def altar_boy_params
+altar_boys/edit	/home/adam/workspace/rails/administrantor/spec/views/altar_boys/edit.html.erb_spec.rb	describe "altar_boys/edit" do
+altar_boys/index	/home/adam/workspace/rails/administrantor/spec/views/altar_boys/index.html.erb_spec.rb	describe "altar_boys/index" do
+altar_boys/new	/home/adam/workspace/rails/administrantor/spec/views/altar_boys/new.html.erb_spec.rb	describe "altar_boys/new" do
+altar_boys/show	/home/adam/workspace/rails/administrantor/spec/views/altar_boys/show.html.erb_spec.rb	describe "altar_boys/show" do
+assigns a new altar_boy as @altar_boy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "assigns a new altar_boy as @altar_boy" do
+assigns a new altar_boy_duty as @altar_boy_duty	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "assigns a new altar_boy_duty as @altar_boy_duty" do
+assigns a new celebration_daily as @celebration_daily	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "assigns a new celebration_daily as @celebration_daily" do
+assigns a new celebration_daily_schema as @celebration_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "assigns a new celebration_daily_schema as @celebration_daily_schema" do
+assigns a new celebration_type as @celebration_type	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "assigns a new celebration_type as @celebration_type" do
+assigns a new celebration_weekly_schema as @celebration_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "assigns a new celebration_weekly_schema as @celebration_weekly_schema" do
+assigns a new duty_daily as @duty_daily	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "assigns a new duty_daily as @duty_daily" do
+assigns a new duty_daily_schema as @duty_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "assigns a new duty_daily_schema as @duty_daily_schema" do
+assigns a new duty_weekly_schema as @duty_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "assigns a new duty_weekly_schema as @duty_weekly_schema" do
+assigns a new presence as @presence	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "assigns a new presence as @presence" do
+assigns a new service_daily as @service_daily	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "assigns a new service_daily as @service_daily" do
+assigns a new service_daily_schema as @service_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "assigns a new service_daily_schema as @service_daily_schema" do
+assigns a new service_type as @service_type	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "assigns a new service_type as @service_type" do
+assigns a new service_types_tarrif as @service_types_tarrif	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "assigns a new service_types_tarrif as @service_types_tarrif" do
+assigns a new service_weekly_schema as @service_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "assigns a new service_weekly_schema as @service_weekly_schema" do
+assigns a new tariff as @tariff	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "assigns a new tariff as @tariff" do
+assigns a new week as @week	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "assigns a new week as @week" do
+assigns a new weekly_plan as @weekly_plan	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "assigns a new weekly_plan as @weekly_plan" do
+assigns a newly created altar_boy as @altar_boy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "assigns a newly created altar_boy as @altar_boy" do
+assigns a newly created altar_boy_duty as @altar_boy_duty	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "assigns a newly created altar_boy_duty as @altar_boy_duty" do
+assigns a newly created but unsaved altar_boy as @altar_boy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "assigns a newly created but unsaved altar_boy as @altar_boy" do
+assigns a newly created but unsaved altar_boy_duty as @altar_boy_duty	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "assigns a newly created but unsaved altar_boy_duty as @altar_boy_duty" do
+assigns a newly created but unsaved celebration_daily as @celebration_daily	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "assigns a newly created but unsaved celebration_daily as @celebration_daily" do
+assigns a newly created but unsaved celebration_daily_schema as @celebration_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "assigns a newly created but unsaved celebration_daily_schema as @celebration_daily_schema" do
+assigns a newly created but unsaved celebration_type as @celebration_type	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "assigns a newly created but unsaved celebration_type as @celebration_type" do
+assigns a newly created but unsaved celebration_weekly_schema as @celebration_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "assigns a newly created but unsaved celebration_weekly_schema as @celebration_weekly_schema" do
+assigns a newly created but unsaved duty_daily as @duty_daily	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "assigns a newly created but unsaved duty_daily as @duty_daily" do
+assigns a newly created but unsaved duty_daily_schema as @duty_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "assigns a newly created but unsaved duty_daily_schema as @duty_daily_schema" do
+assigns a newly created but unsaved duty_weekly_schema as @duty_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "assigns a newly created but unsaved duty_weekly_schema as @duty_weekly_schema" do
+assigns a newly created but unsaved presence as @presence	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "assigns a newly created but unsaved presence as @presence" do
+assigns a newly created but unsaved service_daily as @service_daily	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "assigns a newly created but unsaved service_daily as @service_daily" do
+assigns a newly created but unsaved service_daily_schema as @service_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "assigns a newly created but unsaved service_daily_schema as @service_daily_schema" do
+assigns a newly created but unsaved service_type as @service_type	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "assigns a newly created but unsaved service_type as @service_type" do
+assigns a newly created but unsaved service_types_tarrif as @service_types_tarrif	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "assigns a newly created but unsaved service_types_tarrif as @service_types_tarrif" do
+assigns a newly created but unsaved service_weekly_schema as @service_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "assigns a newly created but unsaved service_weekly_schema as @service_weekly_schema" do
+assigns a newly created but unsaved tariff as @tariff	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "assigns a newly created but unsaved tariff as @tariff" do
+assigns a newly created but unsaved week as @week	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "assigns a newly created but unsaved week as @week" do
+assigns a newly created but unsaved weekly_plan as @weekly_plan	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "assigns a newly created but unsaved weekly_plan as @weekly_plan" do
+assigns a newly created celebration_daily as @celebration_daily	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "assigns a newly created celebration_daily as @celebration_daily" do
+assigns a newly created celebration_daily_schema as @celebration_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "assigns a newly created celebration_daily_schema as @celebration_daily_schema" do
+assigns a newly created celebration_type as @celebration_type	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "assigns a newly created celebration_type as @celebration_type" do
+assigns a newly created celebration_weekly_schema as @celebration_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "assigns a newly created celebration_weekly_schema as @celebration_weekly_schema" do
+assigns a newly created duty_daily as @duty_daily	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "assigns a newly created duty_daily as @duty_daily" do
+assigns a newly created duty_daily_schema as @duty_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "assigns a newly created duty_daily_schema as @duty_daily_schema" do
+assigns a newly created duty_weekly_schema as @duty_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "assigns a newly created duty_weekly_schema as @duty_weekly_schema" do
+assigns a newly created presence as @presence	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "assigns a newly created presence as @presence" do
+assigns a newly created service_daily as @service_daily	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "assigns a newly created service_daily as @service_daily" do
+assigns a newly created service_daily_schema as @service_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "assigns a newly created service_daily_schema as @service_daily_schema" do
+assigns a newly created service_type as @service_type	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "assigns a newly created service_type as @service_type" do
+assigns a newly created service_types_tarrif as @service_types_tarrif	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "assigns a newly created service_types_tarrif as @service_types_tarrif" do
+assigns a newly created service_weekly_schema as @service_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "assigns a newly created service_weekly_schema as @service_weekly_schema" do
+assigns a newly created tariff as @tariff	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "assigns a newly created tariff as @tariff" do
+assigns a newly created week as @week	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "assigns a newly created week as @week" do
+assigns a newly created weekly_plan as @weekly_plan	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "assigns a newly created weekly_plan as @weekly_plan" do
+assigns all altar_boy_duties as @altar_boy_duties	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "assigns all altar_boy_duties as @altar_boy_duties" do
+assigns all altar_boys as @altar_boys	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "assigns all altar_boys as @altar_boys" do
+assigns all celebration_dailies as @celebration_dailies	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "assigns all celebration_dailies as @celebration_dailies" do
+assigns all celebration_daily_schemas as @celebration_daily_schemas	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "assigns all celebration_daily_schemas as @celebration_daily_schemas" do
+assigns all celebration_types as @celebration_types	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "assigns all celebration_types as @celebration_types" do
+assigns all celebration_weekly_schemas as @celebration_weekly_schemas	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "assigns all celebration_weekly_schemas as @celebration_weekly_schemas" do
+assigns all duty_dailies as @duty_dailies	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "assigns all duty_dailies as @duty_dailies" do
+assigns all duty_daily_schemas as @duty_daily_schemas	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "assigns all duty_daily_schemas as @duty_daily_schemas" do
+assigns all duty_weekly_schemas as @duty_weekly_schemas	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "assigns all duty_weekly_schemas as @duty_weekly_schemas" do
+assigns all presences as @presences	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "assigns all presences as @presences" do
+assigns all service_dailies as @service_dailies	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "assigns all service_dailies as @service_dailies" do
+assigns all service_daily_schemas as @service_daily_schemas	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "assigns all service_daily_schemas as @service_daily_schemas" do
+assigns all service_types as @service_types	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "assigns all service_types as @service_types" do
+assigns all service_types_tarrifs as @service_types_tarrifs	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "assigns all service_types_tarrifs as @service_types_tarrifs" do
+assigns all service_weekly_schemas as @service_weekly_schemas	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "assigns all service_weekly_schemas as @service_weekly_schemas" do
+assigns all tariffs as @tariffs	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "assigns all tariffs as @tariffs" do
+assigns all weekly_plans as @weekly_plans	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "assigns all weekly_plans as @weekly_plans" do
+assigns all weeks as @weeks	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "assigns all weeks as @weeks" do
+assigns the altar_boy as @altar_boy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "assigns the altar_boy as @altar_boy" do
+assigns the altar_boy_duty as @altar_boy_duty	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "assigns the altar_boy_duty as @altar_boy_duty" do
+assigns the celebration_daily as @celebration_daily	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "assigns the celebration_daily as @celebration_daily" do
+assigns the celebration_daily_schema as @celebration_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "assigns the celebration_daily_schema as @celebration_daily_schema" do
+assigns the celebration_type as @celebration_type	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "assigns the celebration_type as @celebration_type" do
+assigns the celebration_weekly_schema as @celebration_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "assigns the celebration_weekly_schema as @celebration_weekly_schema" do
+assigns the duty_daily as @duty_daily	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "assigns the duty_daily as @duty_daily" do
+assigns the duty_daily_schema as @duty_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "assigns the duty_daily_schema as @duty_daily_schema" do
+assigns the duty_weekly_schema as @duty_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "assigns the duty_weekly_schema as @duty_weekly_schema" do
+assigns the presence as @presence	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "assigns the presence as @presence" do
+assigns the requested altar_boy as @altar_boy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "assigns the requested altar_boy as @altar_boy" do
+assigns the requested altar_boy as @altar_boy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "assigns the requested altar_boy as @altar_boy" do
+assigns the requested altar_boy as @altar_boy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "assigns the requested altar_boy as @altar_boy" do
+assigns the requested altar_boy_duty as @altar_boy_duty	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "assigns the requested altar_boy_duty as @altar_boy_duty" do
+assigns the requested altar_boy_duty as @altar_boy_duty	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "assigns the requested altar_boy_duty as @altar_boy_duty" do
+assigns the requested altar_boy_duty as @altar_boy_duty	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "assigns the requested altar_boy_duty as @altar_boy_duty" do
+assigns the requested celebration_daily as @celebration_daily	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "assigns the requested celebration_daily as @celebration_daily" do
+assigns the requested celebration_daily as @celebration_daily	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "assigns the requested celebration_daily as @celebration_daily" do
+assigns the requested celebration_daily as @celebration_daily	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "assigns the requested celebration_daily as @celebration_daily" do
+assigns the requested celebration_daily_schema as @celebration_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "assigns the requested celebration_daily_schema as @celebration_daily_schema" do
+assigns the requested celebration_daily_schema as @celebration_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "assigns the requested celebration_daily_schema as @celebration_daily_schema" do
+assigns the requested celebration_daily_schema as @celebration_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "assigns the requested celebration_daily_schema as @celebration_daily_schema" do
+assigns the requested celebration_type as @celebration_type	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "assigns the requested celebration_type as @celebration_type" do
+assigns the requested celebration_type as @celebration_type	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "assigns the requested celebration_type as @celebration_type" do
+assigns the requested celebration_type as @celebration_type	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "assigns the requested celebration_type as @celebration_type" do
+assigns the requested celebration_weekly_schema as @celebration_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "assigns the requested celebration_weekly_schema as @celebration_weekly_schema" do
+assigns the requested celebration_weekly_schema as @celebration_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "assigns the requested celebration_weekly_schema as @celebration_weekly_schema" do
+assigns the requested celebration_weekly_schema as @celebration_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "assigns the requested celebration_weekly_schema as @celebration_weekly_schema" do
+assigns the requested duty_daily as @duty_daily	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "assigns the requested duty_daily as @duty_daily" do
+assigns the requested duty_daily as @duty_daily	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "assigns the requested duty_daily as @duty_daily" do
+assigns the requested duty_daily as @duty_daily	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "assigns the requested duty_daily as @duty_daily" do
+assigns the requested duty_daily_schema as @duty_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "assigns the requested duty_daily_schema as @duty_daily_schema" do
+assigns the requested duty_daily_schema as @duty_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "assigns the requested duty_daily_schema as @duty_daily_schema" do
+assigns the requested duty_daily_schema as @duty_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "assigns the requested duty_daily_schema as @duty_daily_schema" do
+assigns the requested duty_weekly_schema as @duty_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "assigns the requested duty_weekly_schema as @duty_weekly_schema" do
+assigns the requested duty_weekly_schema as @duty_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "assigns the requested duty_weekly_schema as @duty_weekly_schema" do
+assigns the requested duty_weekly_schema as @duty_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "assigns the requested duty_weekly_schema as @duty_weekly_schema" do
+assigns the requested presence as @presence	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "assigns the requested presence as @presence" do
+assigns the requested presence as @presence	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "assigns the requested presence as @presence" do
+assigns the requested presence as @presence	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "assigns the requested presence as @presence" do
+assigns the requested service_daily as @service_daily	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "assigns the requested service_daily as @service_daily" do
+assigns the requested service_daily as @service_daily	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "assigns the requested service_daily as @service_daily" do
+assigns the requested service_daily as @service_daily	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "assigns the requested service_daily as @service_daily" do
+assigns the requested service_daily_schema as @service_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "assigns the requested service_daily_schema as @service_daily_schema" do
+assigns the requested service_daily_schema as @service_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "assigns the requested service_daily_schema as @service_daily_schema" do
+assigns the requested service_daily_schema as @service_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "assigns the requested service_daily_schema as @service_daily_schema" do
+assigns the requested service_type as @service_type	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "assigns the requested service_type as @service_type" do
+assigns the requested service_type as @service_type	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "assigns the requested service_type as @service_type" do
+assigns the requested service_type as @service_type	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "assigns the requested service_type as @service_type" do
+assigns the requested service_types_tarrif as @service_types_tarrif	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "assigns the requested service_types_tarrif as @service_types_tarrif" do
+assigns the requested service_types_tarrif as @service_types_tarrif	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "assigns the requested service_types_tarrif as @service_types_tarrif" do
+assigns the requested service_types_tarrif as @service_types_tarrif	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "assigns the requested service_types_tarrif as @service_types_tarrif" do
+assigns the requested service_weekly_schema as @service_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "assigns the requested service_weekly_schema as @service_weekly_schema" do
+assigns the requested service_weekly_schema as @service_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "assigns the requested service_weekly_schema as @service_weekly_schema" do
+assigns the requested service_weekly_schema as @service_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "assigns the requested service_weekly_schema as @service_weekly_schema" do
+assigns the requested tariff as @tariff	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "assigns the requested tariff as @tariff" do
+assigns the requested tariff as @tariff	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "assigns the requested tariff as @tariff" do
+assigns the requested tariff as @tariff	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "assigns the requested tariff as @tariff" do
+assigns the requested week as @week	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "assigns the requested week as @week" do
+assigns the requested week as @week	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "assigns the requested week as @week" do
+assigns the requested week as @week	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "assigns the requested week as @week" do
+assigns the requested weekly_plan as @weekly_plan	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "assigns the requested weekly_plan as @weekly_plan" do
+assigns the requested weekly_plan as @weekly_plan	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "assigns the requested weekly_plan as @weekly_plan" do
+assigns the requested weekly_plan as @weekly_plan	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "assigns the requested weekly_plan as @weekly_plan" do
+assigns the service_daily as @service_daily	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "assigns the service_daily as @service_daily" do
+assigns the service_daily_schema as @service_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "assigns the service_daily_schema as @service_daily_schema" do
+assigns the service_type as @service_type	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "assigns the service_type as @service_type" do
+assigns the service_types_tarrif as @service_types_tarrif	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "assigns the service_types_tarrif as @service_types_tarrif" do
+assigns the service_weekly_schema as @service_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "assigns the service_weekly_schema as @service_weekly_schema" do
+assigns the tariff as @tariff	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "assigns the tariff as @tariff" do
+assigns the week as @week	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "assigns the week as @week" do
+assigns the weekly_plan as @weekly_plan	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "assigns the weekly_plan as @weekly_plan" do
+celebration_dailies/edit	/home/adam/workspace/rails/administrantor/spec/views/celebration_dailies/edit.html.erb_spec.rb	describe "celebration_dailies/edit" do
+celebration_dailies/index	/home/adam/workspace/rails/administrantor/spec/views/celebration_dailies/index.html.erb_spec.rb	describe "celebration_dailies/index" do
+celebration_dailies/new	/home/adam/workspace/rails/administrantor/spec/views/celebration_dailies/new.html.erb_spec.rb	describe "celebration_dailies/new" do
+celebration_dailies/show	/home/adam/workspace/rails/administrantor/spec/views/celebration_dailies/show.html.erb_spec.rb	describe "celebration_dailies/show" do
+celebration_daily_params	/home/adam/workspace/rails/administrantor/app/controllers/celebration_dailies_controller.rb	    def celebration_daily_params
+celebration_daily_schema_params	/home/adam/workspace/rails/administrantor/app/controllers/celebration_daily_schemas_controller.rb	    def celebration_daily_schema_params
+celebration_daily_schemas/edit	/home/adam/workspace/rails/administrantor/spec/views/celebration_daily_schemas/edit.html.erb_spec.rb	describe "celebration_daily_schemas/edit" do
+celebration_daily_schemas/index	/home/adam/workspace/rails/administrantor/spec/views/celebration_daily_schemas/index.html.erb_spec.rb	describe "celebration_daily_schemas/index" do
+celebration_daily_schemas/new	/home/adam/workspace/rails/administrantor/spec/views/celebration_daily_schemas/new.html.erb_spec.rb	describe "celebration_daily_schemas/new" do
+celebration_daily_schemas/show	/home/adam/workspace/rails/administrantor/spec/views/celebration_daily_schemas/show.html.erb_spec.rb	describe "celebration_daily_schemas/show" do
+celebration_type_params	/home/adam/workspace/rails/administrantor/app/controllers/celebration_types_controller.rb	    def celebration_type_params
+celebration_types/edit	/home/adam/workspace/rails/administrantor/spec/views/celebration_types/edit.html.erb_spec.rb	describe "celebration_types/edit" do
+celebration_types/index	/home/adam/workspace/rails/administrantor/spec/views/celebration_types/index.html.erb_spec.rb	describe "celebration_types/index" do
+celebration_types/new	/home/adam/workspace/rails/administrantor/spec/views/celebration_types/new.html.erb_spec.rb	describe "celebration_types/new" do
+celebration_types/show	/home/adam/workspace/rails/administrantor/spec/views/celebration_types/show.html.erb_spec.rb	describe "celebration_types/show" do
+celebration_weekly_schema_params	/home/adam/workspace/rails/administrantor/app/controllers/celebration_weekly_schemas_controller.rb	    def celebration_weekly_schema_params
+celebration_weekly_schemas/edit	/home/adam/workspace/rails/administrantor/spec/views/celebration_weekly_schemas/edit.html.erb_spec.rb	describe "celebration_weekly_schemas/edit" do
+celebration_weekly_schemas/index	/home/adam/workspace/rails/administrantor/spec/views/celebration_weekly_schemas/index.html.erb_spec.rb	describe "celebration_weekly_schemas/index" do
+celebration_weekly_schemas/new	/home/adam/workspace/rails/administrantor/spec/views/celebration_weekly_schemas/new.html.erb_spec.rb	describe "celebration_weekly_schemas/new" do
+celebration_weekly_schemas/show	/home/adam/workspace/rails/administrantor/spec/views/celebration_weekly_schemas/show.html.erb_spec.rb	describe "celebration_weekly_schemas/show" do
+change	/home/adam/workspace/rails/administrantor/db/migrate/20140102211852_create_tariffs.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20140102212221_create_service_types_tarrifs.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131208150450_create_duty_weekly_schemas.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131201010441_create_celebration_daily_schemas.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20140101235632_add_service_weekly_schema_to_duty_weekly_schema.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20140103002222_create_weeks.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131229000008_create_duty_daily_schemas.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131201170907_create_celebration_weekly_schemas.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131229021851_create_weekly_plans.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20140102130308_create_altar_boys.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131208122404_create_service_weekly_schemas.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131208115135_create_service_daily_schemas.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131231151422_create_service_types.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131229004351_create_altar_boy_duties.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131130205802_create_celebration_types.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131208115940_create_service_dailies.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131130205842_create_celebration_dailies.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20131229000349_create_duty_dailies.rb	  def change
+change	/home/adam/workspace/rails/administrantor/db/migrate/20140103002409_create_presences.rb	  def change
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/duty_weekly_schemas_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/weekly_plans_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/celebration_types_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/duty_dailies_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/celebration_weekly_schemas_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/celebration_dailies_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/presences_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/service_types_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/service_weekly_schemas_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/tariffs_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/service_daily_schemas_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/service_types_tarrifs_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/altar_boy_duties_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/duty_daily_schemas_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/altar_boys_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/service_dailies_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/weeks_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	/home/adam/workspace/rails/administrantor/spec/helpers/celebration_daily_schemas_helper_spec.rb	it "concats two strings with spaces" do
+create	/home/adam/workspace/rails/administrantor/app/controllers/duty_dailies_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/weeks_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/altar_boy_duties_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/celebration_dailies_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/tariffs_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/service_dailies_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/duty_weekly_schemas_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/altar_boys_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/service_types_tarrifs_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/celebration_weekly_schemas_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/service_weekly_schemas_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/weekly_plans_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/service_types_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/celebration_daily_schemas_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/service_daily_schemas_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/duty_daily_schemas_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/presences_controller.rb	  def create
+create	/home/adam/workspace/rails/administrantor/app/controllers/celebration_types_controller.rb	  def create
+creates a new AltarBoy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "creates a new AltarBoy" do
+creates a new AltarBoyDuty	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "creates a new AltarBoyDuty" do
+creates a new CelebrationDaily	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "creates a new CelebrationDaily" do
+creates a new CelebrationDailySchema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "creates a new CelebrationDailySchema" do
+creates a new CelebrationType	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "creates a new CelebrationType" do
+creates a new CelebrationWeeklySchema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "creates a new CelebrationWeeklySchema" do
+creates a new DutyDaily	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "creates a new DutyDaily" do
+creates a new DutyDailySchema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "creates a new DutyDailySchema" do
+creates a new DutyWeeklySchema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "creates a new DutyWeeklySchema" do
+creates a new Presence	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "creates a new Presence" do
+creates a new ServiceDaily	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "creates a new ServiceDaily" do
+creates a new ServiceDailySchema	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "creates a new ServiceDailySchema" do
+creates a new ServiceType	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "creates a new ServiceType" do
+creates a new ServiceTypesTarrif	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "creates a new ServiceTypesTarrif" do
+creates a new ServiceWeeklySchema	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "creates a new ServiceWeeklySchema" do
+creates a new Tariff	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "creates a new Tariff" do
+creates a new Week	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "creates a new Week" do
+creates a new WeeklyPlan	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "creates a new WeeklyPlan" do
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/duty_dailies_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/weeks_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/altar_boy_duties_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/celebration_dailies_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/tariffs_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/service_dailies_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/duty_weekly_schemas_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/altar_boys_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/service_types_tarrifs_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/celebration_weekly_schemas_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/service_weekly_schemas_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/weekly_plans_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/service_types_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/celebration_daily_schemas_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/service_daily_schemas_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/duty_daily_schemas_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/presences_controller.rb	  def destroy
+destroy	/home/adam/workspace/rails/administrantor/app/controllers/celebration_types_controller.rb	  def destroy
+destroys the requested altar_boy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "destroys the requested altar_boy" do
+destroys the requested altar_boy_duty	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "destroys the requested altar_boy_duty" do
+destroys the requested celebration_daily	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "destroys the requested celebration_daily" do
+destroys the requested celebration_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "destroys the requested celebration_daily_schema" do
+destroys the requested celebration_type	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "destroys the requested celebration_type" do
+destroys the requested celebration_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "destroys the requested celebration_weekly_schema" do
+destroys the requested duty_daily	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "destroys the requested duty_daily" do
+destroys the requested duty_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "destroys the requested duty_daily_schema" do
+destroys the requested duty_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "destroys the requested duty_weekly_schema" do
+destroys the requested presence	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "destroys the requested presence" do
+destroys the requested service_daily	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "destroys the requested service_daily" do
+destroys the requested service_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "destroys the requested service_daily_schema" do
+destroys the requested service_type	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "destroys the requested service_type" do
+destroys the requested service_types_tarrif	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "destroys the requested service_types_tarrif" do
+destroys the requested service_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "destroys the requested service_weekly_schema" do
+destroys the requested tariff	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "destroys the requested tariff" do
+destroys the requested week	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "destroys the requested week" do
+destroys the requested weekly_plan	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "destroys the requested weekly_plan" do
+duty_dailies/edit	/home/adam/workspace/rails/administrantor/spec/views/duty_dailies/edit.html.erb_spec.rb	describe "duty_dailies/edit" do
+duty_dailies/index	/home/adam/workspace/rails/administrantor/spec/views/duty_dailies/index.html.erb_spec.rb	describe "duty_dailies/index" do
+duty_dailies/new	/home/adam/workspace/rails/administrantor/spec/views/duty_dailies/new.html.erb_spec.rb	describe "duty_dailies/new" do
+duty_dailies/show	/home/adam/workspace/rails/administrantor/spec/views/duty_dailies/show.html.erb_spec.rb	describe "duty_dailies/show" do
+duty_daily_for_schema	/home/adam/workspace/rails/administrantor/app/models/service_daily.rb	  def duty_daily_for_schema(duty_daily_schema_id)
+duty_daily_params	/home/adam/workspace/rails/administrantor/app/controllers/duty_dailies_controller.rb	    def duty_daily_params
+duty_daily_schema_params	/home/adam/workspace/rails/administrantor/app/controllers/duty_daily_schemas_controller.rb	    def duty_daily_schema_params
+duty_daily_schemas/edit	/home/adam/workspace/rails/administrantor/spec/views/duty_daily_schemas/edit.html.erb_spec.rb	describe "duty_daily_schemas/edit" do
+duty_daily_schemas/index	/home/adam/workspace/rails/administrantor/spec/views/duty_daily_schemas/index.html.erb_spec.rb	describe "duty_daily_schemas/index" do
+duty_daily_schemas/new	/home/adam/workspace/rails/administrantor/spec/views/duty_daily_schemas/new.html.erb_spec.rb	describe "duty_daily_schemas/new" do
+duty_daily_schemas/show	/home/adam/workspace/rails/administrantor/spec/views/duty_daily_schemas/show.html.erb_spec.rb	describe "duty_daily_schemas/show" do
+duty_weekly_schema_params	/home/adam/workspace/rails/administrantor/app/controllers/duty_weekly_schemas_controller.rb	    def duty_weekly_schema_params
+duty_weekly_schemas/edit	/home/adam/workspace/rails/administrantor/spec/views/duty_weekly_schemas/edit.html.erb_spec.rb	describe "duty_weekly_schemas/edit" do
+duty_weekly_schemas/index	/home/adam/workspace/rails/administrantor/spec/views/duty_weekly_schemas/index.html.erb_spec.rb	describe "duty_weekly_schemas/index" do
+duty_weekly_schemas/new	/home/adam/workspace/rails/administrantor/spec/views/duty_weekly_schemas/new.html.erb_spec.rb	describe "duty_weekly_schemas/new" do
+duty_weekly_schemas/show	/home/adam/workspace/rails/administrantor/spec/views/duty_weekly_schemas/show.html.erb_spec.rb	describe "duty_weekly_schemas/show" do
+edit	/home/adam/workspace/rails/administrantor/app/controllers/duty_dailies_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/weeks_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/altar_boy_duties_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/celebration_dailies_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/tariffs_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/service_dailies_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/duty_weekly_schemas_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/altar_boys_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/service_types_tarrifs_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/celebration_weekly_schemas_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/service_weekly_schemas_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/weekly_plans_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/service_types_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/celebration_daily_schemas_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/service_daily_schemas_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/duty_daily_schemas_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/presences_controller.rb	  def edit
+edit	/home/adam/workspace/rails/administrantor/app/controllers/celebration_types_controller.rb	  def edit
+fromCelebrationDaily	/home/adam/workspace/rails/administrantor/app/models/service_daily.rb	  def self.fromCelebrationDaily(service_daily_schema, celebration_daily)
+fromCelebrationDailySchema	/home/adam/workspace/rails/administrantor/app/models/service_daily_schema.rb		def self.fromCelebrationDailySchema(celebration_daily_schema)
+fromServiceDaily	/home/adam/workspace/rails/administrantor/app/models/duty_daily.rb	  def self.fromServiceDaily(duty_daily_schema, service_daily)
+fromServiceDailySchema	/home/adam/workspace/rails/administrantor/app/models/duty_daily_schema.rb	  def self.fromServiceDailySchema(service_daily_schema)
+fromServiceWeeklySchema	/home/adam/workspace/rails/administrantor/app/models/duty_weekly_schema.rb	  def self.fromServiceWeeklySchema(service_weekly_schema)
+index	/home/adam/workspace/rails/administrantor/app/controllers/duty_dailies_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/weeks_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/altar_boy_duties_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/celebration_dailies_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/tariffs_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/service_dailies_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/duty_weekly_schemas_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/altar_boys_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/service_types_tarrifs_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/celebration_weekly_schemas_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/service_weekly_schemas_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/weekly_plans_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/service_types_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/celebration_daily_schemas_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/service_daily_schemas_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/duty_daily_schemas_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/presences_controller.rb	  def index
+index	/home/adam/workspace/rails/administrantor/app/controllers/celebration_types_controller.rb	  def index
+input	/home/adam/workspace/rails/administrantor/app/inputs/fake_input.rb	  def input
+new	/home/adam/workspace/rails/administrantor/app/controllers/duty_dailies_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/weeks_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/altar_boy_duties_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/celebration_dailies_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/tariffs_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/service_dailies_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/duty_weekly_schemas_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/altar_boys_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/service_types_tarrifs_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/celebration_weekly_schemas_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/service_weekly_schemas_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/weekly_plans_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/service_types_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/celebration_daily_schemas_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/service_daily_schemas_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/duty_daily_schemas_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/presences_controller.rb	  def new
+new	/home/adam/workspace/rails/administrantor/app/controllers/celebration_types_controller.rb	  def new
+presence_params	/home/adam/workspace/rails/administrantor/app/controllers/presences_controller.rb	    def presence_params
+presences/edit	/home/adam/workspace/rails/administrantor/spec/views/presences/edit.html.erb_spec.rb	describe "presences/edit" do
+presences/index	/home/adam/workspace/rails/administrantor/spec/views/presences/index.html.erb_spec.rb	describe "presences/index" do
+presences/new	/home/adam/workspace/rails/administrantor/spec/views/presences/new.html.erb_spec.rb	describe "presences/new" do
+presences/show	/home/adam/workspace/rails/administrantor/spec/views/presences/show.html.erb_spec.rb	describe "presences/show" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'edit' template	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "re-renders the 'edit' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "re-renders the 'new' template" do
+re-renders the 'new' template	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "re-renders the 'new' template" do
+redirects to the altar_boy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "redirects to the altar_boy" do
+redirects to the altar_boy_duties list	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "redirects to the altar_boy_duties list" do
+redirects to the altar_boy_duty	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "redirects to the altar_boy_duty" do
+redirects to the altar_boys list	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "redirects to the altar_boys list" do
+redirects to the celebration_dailies list	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "redirects to the celebration_dailies list" do
+redirects to the celebration_daily	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "redirects to the celebration_daily" do
+redirects to the celebration_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "redirects to the celebration_daily_schema" do
+redirects to the celebration_daily_schemas list	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "redirects to the celebration_daily_schemas list" do
+redirects to the celebration_type	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "redirects to the celebration_type" do
+redirects to the celebration_types list	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "redirects to the celebration_types list" do
+redirects to the celebration_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "redirects to the celebration_weekly_schema" do
+redirects to the celebration_weekly_schemas list	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "redirects to the celebration_weekly_schemas list" do
+redirects to the created altar_boy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "redirects to the created altar_boy" do
+redirects to the created altar_boy_duty	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "redirects to the created altar_boy_duty" do
+redirects to the created celebration_daily	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "redirects to the created celebration_daily" do
+redirects to the created celebration_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "redirects to the created celebration_daily_schema" do
+redirects to the created celebration_type	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "redirects to the created celebration_type" do
+redirects to the created celebration_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "redirects to the created celebration_weekly_schema" do
+redirects to the created duty_daily	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "redirects to the created duty_daily" do
+redirects to the created duty_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "redirects to the created duty_daily_schema" do
+redirects to the created duty_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "redirects to the created duty_weekly_schema" do
+redirects to the created presence	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "redirects to the created presence" do
+redirects to the created service_daily	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "redirects to the created service_daily" do
+redirects to the created service_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "redirects to the created service_daily_schema" do
+redirects to the created service_type	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "redirects to the created service_type" do
+redirects to the created service_types_tarrif	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "redirects to the created service_types_tarrif" do
+redirects to the created service_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "redirects to the created service_weekly_schema" do
+redirects to the created tariff	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "redirects to the created tariff" do
+redirects to the created week	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "redirects to the created week" do
+redirects to the created weekly_plan	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "redirects to the created weekly_plan" do
+redirects to the duty_dailies list	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "redirects to the duty_dailies list" do
+redirects to the duty_daily	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "redirects to the duty_daily" do
+redirects to the duty_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "redirects to the duty_daily_schema" do
+redirects to the duty_daily_schemas list	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "redirects to the duty_daily_schemas list" do
+redirects to the duty_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "redirects to the duty_weekly_schema" do
+redirects to the duty_weekly_schemas list	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "redirects to the duty_weekly_schemas list" do
+redirects to the presence	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "redirects to the presence" do
+redirects to the presences list	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "redirects to the presences list" do
+redirects to the service_dailies list	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "redirects to the service_dailies list" do
+redirects to the service_daily	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "redirects to the service_daily" do
+redirects to the service_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "redirects to the service_daily_schema" do
+redirects to the service_daily_schemas list	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "redirects to the service_daily_schemas list" do
+redirects to the service_type	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "redirects to the service_type" do
+redirects to the service_types list	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "redirects to the service_types list" do
+redirects to the service_types_tarrif	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "redirects to the service_types_tarrif" do
+redirects to the service_types_tarrifs list	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "redirects to the service_types_tarrifs list" do
+redirects to the service_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "redirects to the service_weekly_schema" do
+redirects to the service_weekly_schemas list	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "redirects to the service_weekly_schemas list" do
+redirects to the tariff	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "redirects to the tariff" do
+redirects to the tariffs list	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "redirects to the tariffs list" do
+redirects to the week	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "redirects to the week" do
+redirects to the weekly_plan	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "redirects to the weekly_plan" do
+redirects to the weekly_plans list	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "redirects to the weekly_plans list" do
+redirects to the weeks list	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "redirects to the weeks list" do
+renders a list of altar_boy_duties	/home/adam/workspace/rails/administrantor/spec/views/altar_boy_duties/index.html.erb_spec.rb	it "renders a list of altar_boy_duties" do
+renders a list of altar_boys	/home/adam/workspace/rails/administrantor/spec/views/altar_boys/index.html.erb_spec.rb	it "renders a list of altar_boys" do
+renders a list of celebration_dailies	/home/adam/workspace/rails/administrantor/spec/views/celebration_dailies/index.html.erb_spec.rb	it "renders a list of celebration_dailies" do
+renders a list of celebration_daily_schemas	/home/adam/workspace/rails/administrantor/spec/views/celebration_daily_schemas/index.html.erb_spec.rb	it "renders a list of celebration_daily_schemas" do
+renders a list of celebration_types	/home/adam/workspace/rails/administrantor/spec/views/celebration_types/index.html.erb_spec.rb	it "renders a list of celebration_types" do
+renders a list of celebration_weekly_schemas	/home/adam/workspace/rails/administrantor/spec/views/celebration_weekly_schemas/index.html.erb_spec.rb	it "renders a list of celebration_weekly_schemas" do
+renders a list of duty_dailies	/home/adam/workspace/rails/administrantor/spec/views/duty_dailies/index.html.erb_spec.rb	it "renders a list of duty_dailies" do
+renders a list of duty_daily_schemas	/home/adam/workspace/rails/administrantor/spec/views/duty_daily_schemas/index.html.erb_spec.rb	it "renders a list of duty_daily_schemas" do
+renders a list of duty_weekly_schemas	/home/adam/workspace/rails/administrantor/spec/views/duty_weekly_schemas/index.html.erb_spec.rb	it "renders a list of duty_weekly_schemas" do
+renders a list of presences	/home/adam/workspace/rails/administrantor/spec/views/presences/index.html.erb_spec.rb	it "renders a list of presences" do
+renders a list of service_dailies	/home/adam/workspace/rails/administrantor/spec/views/service_dailies/index.html.erb_spec.rb	it "renders a list of service_dailies" do
+renders a list of service_daily_schemas	/home/adam/workspace/rails/administrantor/spec/views/service_daily_schemas/index.html.erb_spec.rb	it "renders a list of service_daily_schemas" do
+renders a list of service_types	/home/adam/workspace/rails/administrantor/spec/views/service_types/index.html.erb_spec.rb	it "renders a list of service_types" do
+renders a list of service_types_tarrifs	/home/adam/workspace/rails/administrantor/spec/views/service_types_tarrifs/index.html.erb_spec.rb	it "renders a list of service_types_tarrifs" do
+renders a list of service_weekly_schemas	/home/adam/workspace/rails/administrantor/spec/views/service_weekly_schemas/index.html.erb_spec.rb	it "renders a list of service_weekly_schemas" do
+renders a list of tariffs	/home/adam/workspace/rails/administrantor/spec/views/tariffs/index.html.erb_spec.rb	it "renders a list of tariffs" do
+renders a list of weekly_plans	/home/adam/workspace/rails/administrantor/spec/views/weekly_plans/index.html.erb_spec.rb	it "renders a list of weekly_plans" do
+renders a list of weeks	/home/adam/workspace/rails/administrantor/spec/views/weeks/index.html.erb_spec.rb	it "renders a list of weeks" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/weeks/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/weekly_plans/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/celebration_types/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/celebration_weekly_schemas/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/duty_daily_schemas/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/celebration_daily_schemas/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/duty_dailies/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/service_weekly_schemas/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/altar_boy_duties/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/service_types/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/service_dailies/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/service_daily_schemas/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/altar_boys/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/duty_weekly_schemas/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/tariffs/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/celebration_dailies/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/presences/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders attributes in <p>	/home/adam/workspace/rails/administrantor/spec/views/service_types_tarrifs/show.html.erb_spec.rb	it "renders attributes in <p>" do
+renders new altar_boy form	/home/adam/workspace/rails/administrantor/spec/views/altar_boys/new.html.erb_spec.rb	it "renders new altar_boy form" do
+renders new altar_boy_duty form	/home/adam/workspace/rails/administrantor/spec/views/altar_boy_duties/new.html.erb_spec.rb	it "renders new altar_boy_duty form" do
+renders new celebration_daily form	/home/adam/workspace/rails/administrantor/spec/views/celebration_dailies/new.html.erb_spec.rb	it "renders new celebration_daily form" do
+renders new celebration_daily_schema form	/home/adam/workspace/rails/administrantor/spec/views/celebration_daily_schemas/new.html.erb_spec.rb	it "renders new celebration_daily_schema form" do
+renders new celebration_type form	/home/adam/workspace/rails/administrantor/spec/views/celebration_types/new.html.erb_spec.rb	it "renders new celebration_type form" do
+renders new celebration_weekly_schema form	/home/adam/workspace/rails/administrantor/spec/views/celebration_weekly_schemas/new.html.erb_spec.rb	it "renders new celebration_weekly_schema form" do
+renders new duty_daily form	/home/adam/workspace/rails/administrantor/spec/views/duty_dailies/new.html.erb_spec.rb	it "renders new duty_daily form" do
+renders new duty_daily_schema form	/home/adam/workspace/rails/administrantor/spec/views/duty_daily_schemas/new.html.erb_spec.rb	it "renders new duty_daily_schema form" do
+renders new duty_weekly_schema form	/home/adam/workspace/rails/administrantor/spec/views/duty_weekly_schemas/new.html.erb_spec.rb	it "renders new duty_weekly_schema form" do
+renders new presence form	/home/adam/workspace/rails/administrantor/spec/views/presences/new.html.erb_spec.rb	it "renders new presence form" do
+renders new service_daily form	/home/adam/workspace/rails/administrantor/spec/views/service_dailies/new.html.erb_spec.rb	it "renders new service_daily form" do
+renders new service_daily_schema form	/home/adam/workspace/rails/administrantor/spec/views/service_daily_schemas/new.html.erb_spec.rb	it "renders new service_daily_schema form" do
+renders new service_type form	/home/adam/workspace/rails/administrantor/spec/views/service_types/new.html.erb_spec.rb	it "renders new service_type form" do
+renders new service_types_tarrif form	/home/adam/workspace/rails/administrantor/spec/views/service_types_tarrifs/new.html.erb_spec.rb	it "renders new service_types_tarrif form" do
+renders new service_weekly_schema form	/home/adam/workspace/rails/administrantor/spec/views/service_weekly_schemas/new.html.erb_spec.rb	it "renders new service_weekly_schema form" do
+renders new tariff form	/home/adam/workspace/rails/administrantor/spec/views/tariffs/new.html.erb_spec.rb	it "renders new tariff form" do
+renders new week form	/home/adam/workspace/rails/administrantor/spec/views/weeks/new.html.erb_spec.rb	it "renders new week form" do
+renders new weekly_plan form	/home/adam/workspace/rails/administrantor/spec/views/weekly_plans/new.html.erb_spec.rb	it "renders new weekly_plan form" do
+renders the edit altar_boy form	/home/adam/workspace/rails/administrantor/spec/views/altar_boys/edit.html.erb_spec.rb	it "renders the edit altar_boy form" do
+renders the edit altar_boy_duty form	/home/adam/workspace/rails/administrantor/spec/views/altar_boy_duties/edit.html.erb_spec.rb	it "renders the edit altar_boy_duty form" do
+renders the edit celebration_daily form	/home/adam/workspace/rails/administrantor/spec/views/celebration_dailies/edit.html.erb_spec.rb	it "renders the edit celebration_daily form" do
+renders the edit celebration_daily_schema form	/home/adam/workspace/rails/administrantor/spec/views/celebration_daily_schemas/edit.html.erb_spec.rb	it "renders the edit celebration_daily_schema form" do
+renders the edit celebration_type form	/home/adam/workspace/rails/administrantor/spec/views/celebration_types/edit.html.erb_spec.rb	it "renders the edit celebration_type form" do
+renders the edit celebration_weekly_schema form	/home/adam/workspace/rails/administrantor/spec/views/celebration_weekly_schemas/edit.html.erb_spec.rb	it "renders the edit celebration_weekly_schema form" do
+renders the edit duty_daily form	/home/adam/workspace/rails/administrantor/spec/views/duty_dailies/edit.html.erb_spec.rb	it "renders the edit duty_daily form" do
+renders the edit duty_daily_schema form	/home/adam/workspace/rails/administrantor/spec/views/duty_daily_schemas/edit.html.erb_spec.rb	it "renders the edit duty_daily_schema form" do
+renders the edit duty_weekly_schema form	/home/adam/workspace/rails/administrantor/spec/views/duty_weekly_schemas/edit.html.erb_spec.rb	it "renders the edit duty_weekly_schema form" do
+renders the edit presence form	/home/adam/workspace/rails/administrantor/spec/views/presences/edit.html.erb_spec.rb	it "renders the edit presence form" do
+renders the edit service_daily form	/home/adam/workspace/rails/administrantor/spec/views/service_dailies/edit.html.erb_spec.rb	it "renders the edit service_daily form" do
+renders the edit service_daily_schema form	/home/adam/workspace/rails/administrantor/spec/views/service_daily_schemas/edit.html.erb_spec.rb	it "renders the edit service_daily_schema form" do
+renders the edit service_type form	/home/adam/workspace/rails/administrantor/spec/views/service_types/edit.html.erb_spec.rb	it "renders the edit service_type form" do
+renders the edit service_types_tarrif form	/home/adam/workspace/rails/administrantor/spec/views/service_types_tarrifs/edit.html.erb_spec.rb	it "renders the edit service_types_tarrif form" do
+renders the edit service_weekly_schema form	/home/adam/workspace/rails/administrantor/spec/views/service_weekly_schemas/edit.html.erb_spec.rb	it "renders the edit service_weekly_schema form" do
+renders the edit tariff form	/home/adam/workspace/rails/administrantor/spec/views/tariffs/edit.html.erb_spec.rb	it "renders the edit tariff form" do
+renders the edit week form	/home/adam/workspace/rails/administrantor/spec/views/weeks/edit.html.erb_spec.rb	it "renders the edit week form" do
+renders the edit weekly_plan form	/home/adam/workspace/rails/administrantor/spec/views/weekly_plans/edit.html.erb_spec.rb	it "renders the edit weekly_plan form" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/service_daily_schemas_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/celebration_daily_schemas_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/duty_weekly_schemas_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/celebration_types_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/presences_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/service_dailies_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/duty_daily_schemas_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/altar_boys_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/service_weekly_schemas_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/altar_boy_duties_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/weekly_plans_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/duty_dailies_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/tariffs_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/weeks_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/celebration_dailies_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/service_types_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/service_types_tarrifs_routing_spec.rb	it "routes to #create" do
+routes to #create	/home/adam/workspace/rails/administrantor/spec/routing/celebration_weekly_schemas_routing_spec.rb	it "routes to #create" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/service_daily_schemas_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/celebration_daily_schemas_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/duty_weekly_schemas_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/celebration_types_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/presences_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/service_dailies_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/duty_daily_schemas_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/altar_boys_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/service_weekly_schemas_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/altar_boy_duties_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/weekly_plans_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/duty_dailies_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/tariffs_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/weeks_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/celebration_dailies_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/service_types_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/service_types_tarrifs_routing_spec.rb	it "routes to #destroy" do
+routes to #destroy	/home/adam/workspace/rails/administrantor/spec/routing/celebration_weekly_schemas_routing_spec.rb	it "routes to #destroy" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/service_daily_schemas_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/celebration_daily_schemas_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/duty_weekly_schemas_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/celebration_types_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/presences_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/service_dailies_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/duty_daily_schemas_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/altar_boys_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/service_weekly_schemas_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/altar_boy_duties_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/weekly_plans_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/duty_dailies_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/tariffs_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/weeks_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/celebration_dailies_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/service_types_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/service_types_tarrifs_routing_spec.rb	it "routes to #edit" do
+routes to #edit	/home/adam/workspace/rails/administrantor/spec/routing/celebration_weekly_schemas_routing_spec.rb	it "routes to #edit" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/service_daily_schemas_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/celebration_daily_schemas_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/duty_weekly_schemas_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/celebration_types_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/presences_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/service_dailies_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/duty_daily_schemas_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/altar_boys_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/service_weekly_schemas_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/altar_boy_duties_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/weekly_plans_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/duty_dailies_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/tariffs_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/weeks_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/celebration_dailies_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/service_types_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/service_types_tarrifs_routing_spec.rb	it "routes to #index" do
+routes to #index	/home/adam/workspace/rails/administrantor/spec/routing/celebration_weekly_schemas_routing_spec.rb	it "routes to #index" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/service_daily_schemas_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/celebration_daily_schemas_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/duty_weekly_schemas_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/celebration_types_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/presences_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/service_dailies_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/duty_daily_schemas_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/altar_boys_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/service_weekly_schemas_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/altar_boy_duties_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/weekly_plans_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/duty_dailies_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/tariffs_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/weeks_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/celebration_dailies_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/service_types_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/service_types_tarrifs_routing_spec.rb	it "routes to #new" do
+routes to #new	/home/adam/workspace/rails/administrantor/spec/routing/celebration_weekly_schemas_routing_spec.rb	it "routes to #new" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/service_daily_schemas_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/celebration_daily_schemas_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/duty_weekly_schemas_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/celebration_types_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/presences_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/service_dailies_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/duty_daily_schemas_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/altar_boys_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/service_weekly_schemas_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/altar_boy_duties_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/weekly_plans_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/duty_dailies_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/tariffs_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/weeks_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/celebration_dailies_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/service_types_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/service_types_tarrifs_routing_spec.rb	it "routes to #show" do
+routes to #show	/home/adam/workspace/rails/administrantor/spec/routing/celebration_weekly_schemas_routing_spec.rb	it "routes to #show" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/service_daily_schemas_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/celebration_daily_schemas_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/duty_weekly_schemas_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/celebration_types_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/presences_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/service_dailies_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/duty_daily_schemas_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/altar_boys_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/service_weekly_schemas_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/altar_boy_duties_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/weekly_plans_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/duty_dailies_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/tariffs_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/weeks_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/celebration_dailies_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/service_types_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/service_types_tarrifs_routing_spec.rb	it "routes to #update" do
+routes to #update	/home/adam/workspace/rails/administrantor/spec/routing/celebration_weekly_schemas_routing_spec.rb	it "routes to #update" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/service_daily_schemas_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/celebration_daily_schemas_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/duty_weekly_schemas_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/celebration_types_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/presences_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/service_dailies_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/duty_daily_schemas_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/altar_boys_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/service_weekly_schemas_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/altar_boy_duties_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/weekly_plans_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/duty_dailies_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/tariffs_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/weeks_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/celebration_dailies_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/service_types_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/service_types_tarrifs_routing_spec.rb	describe "routing" do
+routing	/home/adam/workspace/rails/administrantor/spec/routing/celebration_weekly_schemas_routing_spec.rb	describe "routing" do
+service_dailies/edit	/home/adam/workspace/rails/administrantor/spec/views/service_dailies/edit.html.erb_spec.rb	describe "service_dailies/edit" do
+service_dailies/index	/home/adam/workspace/rails/administrantor/spec/views/service_dailies/index.html.erb_spec.rb	describe "service_dailies/index" do
+service_dailies/new	/home/adam/workspace/rails/administrantor/spec/views/service_dailies/new.html.erb_spec.rb	describe "service_dailies/new" do
+service_dailies/show	/home/adam/workspace/rails/administrantor/spec/views/service_dailies/show.html.erb_spec.rb	describe "service_dailies/show" do
+service_daily_params	/home/adam/workspace/rails/administrantor/app/controllers/service_dailies_controller.rb	    def service_daily_params
+service_daily_schema_params	/home/adam/workspace/rails/administrantor/app/controllers/service_daily_schemas_controller.rb	    def service_daily_schema_params
+service_daily_schemas/edit	/home/adam/workspace/rails/administrantor/spec/views/service_daily_schemas/edit.html.erb_spec.rb	describe "service_daily_schemas/edit" do
+service_daily_schemas/index	/home/adam/workspace/rails/administrantor/spec/views/service_daily_schemas/index.html.erb_spec.rb	describe "service_daily_schemas/index" do
+service_daily_schemas/new	/home/adam/workspace/rails/administrantor/spec/views/service_daily_schemas/new.html.erb_spec.rb	describe "service_daily_schemas/new" do
+service_daily_schemas/show	/home/adam/workspace/rails/administrantor/spec/views/service_daily_schemas/show.html.erb_spec.rb	describe "service_daily_schemas/show" do
+service_type_params	/home/adam/workspace/rails/administrantor/app/controllers/service_types_controller.rb	    def service_type_params
+service_types/edit	/home/adam/workspace/rails/administrantor/spec/views/service_types/edit.html.erb_spec.rb	describe "service_types/edit" do
+service_types/index	/home/adam/workspace/rails/administrantor/spec/views/service_types/index.html.erb_spec.rb	describe "service_types/index" do
+service_types/new	/home/adam/workspace/rails/administrantor/spec/views/service_types/new.html.erb_spec.rb	describe "service_types/new" do
+service_types/show	/home/adam/workspace/rails/administrantor/spec/views/service_types/show.html.erb_spec.rb	describe "service_types/show" do
+service_types_tarrif_params	/home/adam/workspace/rails/administrantor/app/controllers/service_types_tarrifs_controller.rb	    def service_types_tarrif_params
+service_types_tarrifs/edit	/home/adam/workspace/rails/administrantor/spec/views/service_types_tarrifs/edit.html.erb_spec.rb	describe "service_types_tarrifs/edit" do
+service_types_tarrifs/index	/home/adam/workspace/rails/administrantor/spec/views/service_types_tarrifs/index.html.erb_spec.rb	describe "service_types_tarrifs/index" do
+service_types_tarrifs/new	/home/adam/workspace/rails/administrantor/spec/views/service_types_tarrifs/new.html.erb_spec.rb	describe "service_types_tarrifs/new" do
+service_types_tarrifs/show	/home/adam/workspace/rails/administrantor/spec/views/service_types_tarrifs/show.html.erb_spec.rb	describe "service_types_tarrifs/show" do
+service_weekly_schema_params	/home/adam/workspace/rails/administrantor/app/controllers/service_weekly_schemas_controller.rb	    def service_weekly_schema_params
+service_weekly_schemas/edit	/home/adam/workspace/rails/administrantor/spec/views/service_weekly_schemas/edit.html.erb_spec.rb	describe "service_weekly_schemas/edit" do
+service_weekly_schemas/index	/home/adam/workspace/rails/administrantor/spec/views/service_weekly_schemas/index.html.erb_spec.rb	describe "service_weekly_schemas/index" do
+service_weekly_schemas/new	/home/adam/workspace/rails/administrantor/spec/views/service_weekly_schemas/new.html.erb_spec.rb	describe "service_weekly_schemas/new" do
+service_weekly_schemas/show	/home/adam/workspace/rails/administrantor/spec/views/service_weekly_schemas/show.html.erb_spec.rb	describe "service_weekly_schemas/show" do
+set_altar_boy	/home/adam/workspace/rails/administrantor/app/controllers/altar_boys_controller.rb	    def set_altar_boy
+set_altar_boy_duty	/home/adam/workspace/rails/administrantor/app/controllers/altar_boy_duties_controller.rb	    def set_altar_boy_duty
+set_celebration_daily	/home/adam/workspace/rails/administrantor/app/controllers/celebration_dailies_controller.rb	    def set_celebration_daily
+set_celebration_daily_schema	/home/adam/workspace/rails/administrantor/app/controllers/celebration_daily_schemas_controller.rb	    def set_celebration_daily_schema
+set_celebration_type	/home/adam/workspace/rails/administrantor/app/controllers/celebration_types_controller.rb	    def set_celebration_type
+set_celebration_weekly_schema	/home/adam/workspace/rails/administrantor/app/controllers/celebration_weekly_schemas_controller.rb	    def set_celebration_weekly_schema
+set_duty_daily	/home/adam/workspace/rails/administrantor/app/controllers/duty_dailies_controller.rb	    def set_duty_daily
+set_duty_daily_schema	/home/adam/workspace/rails/administrantor/app/controllers/duty_daily_schemas_controller.rb	    def set_duty_daily_schema
+set_duty_weekly_schema	/home/adam/workspace/rails/administrantor/app/controllers/duty_weekly_schemas_controller.rb	    def set_duty_weekly_schema
+set_presence	/home/adam/workspace/rails/administrantor/app/controllers/presences_controller.rb	    def set_presence
+set_service_daily	/home/adam/workspace/rails/administrantor/app/controllers/service_dailies_controller.rb	    def set_service_daily
+set_service_daily_schema	/home/adam/workspace/rails/administrantor/app/controllers/service_daily_schemas_controller.rb	    def set_service_daily_schema
+set_service_type	/home/adam/workspace/rails/administrantor/app/controllers/service_types_controller.rb	    def set_service_type
+set_service_types_tarrif	/home/adam/workspace/rails/administrantor/app/controllers/service_types_tarrifs_controller.rb	    def set_service_types_tarrif
+set_service_weekly_schema	/home/adam/workspace/rails/administrantor/app/controllers/service_weekly_schemas_controller.rb	    def set_service_weekly_schema
+set_tariff	/home/adam/workspace/rails/administrantor/app/controllers/tariffs_controller.rb	    def set_tariff
+set_week	/home/adam/workspace/rails/administrantor/app/controllers/weeks_controller.rb	    def set_week
+set_weekly_plan	/home/adam/workspace/rails/administrantor/app/controllers/weekly_plans_controller.rb	    def set_weekly_plan
+setup_celebrations	/home/adam/workspace/rails/administrantor/app/controllers/weekly_plans_controller.rb	  def setup_celebrations
+setup_services	/home/adam/workspace/rails/administrantor/app/controllers/weekly_plans_controller.rb	  def setup_services
+show	/home/adam/workspace/rails/administrantor/app/controllers/duty_dailies_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/weeks_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/altar_boy_duties_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/celebration_dailies_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/tariffs_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/service_dailies_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/duty_weekly_schemas_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/altar_boys_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/service_types_tarrifs_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/celebration_weekly_schemas_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/service_weekly_schemas_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/weekly_plans_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/service_types_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/celebration_daily_schemas_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/service_daily_schemas_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/duty_daily_schemas_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/presences_controller.rb	  def show
+show	/home/adam/workspace/rails/administrantor/app/controllers/celebration_types_controller.rb	  def show
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/duty_weekly_schemas_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/weekly_plans_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/celebration_types_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/duty_dailies_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/celebration_weekly_schemas_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/celebration_dailies_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/presences_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/service_types_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/service_weekly_schemas_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/tariffs_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/service_daily_schemas_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/service_types_tarrifs_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/altar_boy_duties_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/duty_daily_schemas_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/altar_boys_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/service_dailies_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/weeks_helper_spec.rb	describe "string concat" do
+string concat	/home/adam/workspace/rails/administrantor/spec/helpers/celebration_daily_schemas_helper_spec.rb	describe "string concat" do
+tariff_params	/home/adam/workspace/rails/administrantor/app/controllers/tariffs_controller.rb	    def tariff_params
+tariffs/edit	/home/adam/workspace/rails/administrantor/spec/views/tariffs/edit.html.erb_spec.rb	describe "tariffs/edit" do
+tariffs/index	/home/adam/workspace/rails/administrantor/spec/views/tariffs/index.html.erb_spec.rb	describe "tariffs/index" do
+tariffs/new	/home/adam/workspace/rails/administrantor/spec/views/tariffs/new.html.erb_spec.rb	describe "tariffs/new" do
+tariffs/show	/home/adam/workspace/rails/administrantor/spec/views/tariffs/show.html.erb_spec.rb	describe "tariffs/show" do
+test_create_invalid	/home/adam/workspace/rails/administrantor/test/functional/altar_boys_controller_test.rb	  def test_create_invalid
+test_create_valid	/home/adam/workspace/rails/administrantor/test/functional/altar_boys_controller_test.rb	  def test_create_valid
+test_index	/home/adam/workspace/rails/administrantor/test/functional/altar_boys_controller_test.rb	  def test_index
+test_new	/home/adam/workspace/rails/administrantor/test/functional/altar_boys_controller_test.rb	  def test_new
+test_should_be_valid	/home/adam/workspace/rails/administrantor/test/unit/altar_boy_test.rb	  def test_should_be_valid
+to_s	/home/adam/workspace/rails/administrantor/app/models/service_daily.rb	  def to_s
+to_s	/home/adam/workspace/rails/administrantor/app/models/celebration_daily.rb	  def to_s
+to_s	/home/adam/workspace/rails/administrantor/app/models/celebration_daily_schema.rb	  def to_s
+to_s	/home/adam/workspace/rails/administrantor/app/models/celebration_type.rb	  def to_s
+to_s	/home/adam/workspace/rails/administrantor/app/models/service_type.rb		def to_s
+to_s	/home/adam/workspace/rails/administrantor/app/models/service_daily_schema.rb	  	def to_s
+to_s	/home/adam/workspace/rails/administrantor/app/models/duty_daily_schema.rb	  def to_s
+to_s	/home/adam/workspace/rails/administrantor/app/models/duty_daily.rb	  def to_s
+update	/home/adam/workspace/rails/administrantor/app/controllers/duty_dailies_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/weeks_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/altar_boy_duties_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/celebration_dailies_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/tariffs_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/service_dailies_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/duty_weekly_schemas_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/altar_boys_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/service_types_tarrifs_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/celebration_weekly_schemas_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/service_weekly_schemas_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/weekly_plans_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/service_types_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/celebration_daily_schemas_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/service_daily_schemas_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/duty_daily_schemas_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/presences_controller.rb	  def update
+update	/home/adam/workspace/rails/administrantor/app/controllers/celebration_types_controller.rb	  def update
+updates the requested altar_boy	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	it "updates the requested altar_boy" do
+updates the requested altar_boy_duty	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	it "updates the requested altar_boy_duty" do
+updates the requested celebration_daily	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	it "updates the requested celebration_daily" do
+updates the requested celebration_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	it "updates the requested celebration_daily_schema" do
+updates the requested celebration_type	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	it "updates the requested celebration_type" do
+updates the requested celebration_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	it "updates the requested celebration_weekly_schema" do
+updates the requested duty_daily	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	it "updates the requested duty_daily" do
+updates the requested duty_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	it "updates the requested duty_daily_schema" do
+updates the requested duty_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	it "updates the requested duty_weekly_schema" do
+updates the requested presence	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	it "updates the requested presence" do
+updates the requested service_daily	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	it "updates the requested service_daily" do
+updates the requested service_daily_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	it "updates the requested service_daily_schema" do
+updates the requested service_type	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	it "updates the requested service_type" do
+updates the requested service_types_tarrif	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	it "updates the requested service_types_tarrif" do
+updates the requested service_weekly_schema	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	it "updates the requested service_weekly_schema" do
+updates the requested tariff	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	it "updates the requested tariff" do
+updates the requested week	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	it "updates the requested week" do
+updates the requested weekly_plan	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	it "updates the requested weekly_plan" do
+week_params	/home/adam/workspace/rails/administrantor/app/controllers/weeks_controller.rb	    def week_params
+weekly_plan_params	/home/adam/workspace/rails/administrantor/app/controllers/weekly_plans_controller.rb	    def weekly_plan_params
+weekly_plans/edit	/home/adam/workspace/rails/administrantor/spec/views/weekly_plans/edit.html.erb_spec.rb	describe "weekly_plans/edit" do
+weekly_plans/index	/home/adam/workspace/rails/administrantor/spec/views/weekly_plans/index.html.erb_spec.rb	describe "weekly_plans/index" do
+weekly_plans/new	/home/adam/workspace/rails/administrantor/spec/views/weekly_plans/new.html.erb_spec.rb	describe "weekly_plans/new" do
+weekly_plans/show	/home/adam/workspace/rails/administrantor/spec/views/weekly_plans/show.html.erb_spec.rb	describe "weekly_plans/show" do
+weeks/edit	/home/adam/workspace/rails/administrantor/spec/views/weeks/edit.html.erb_spec.rb	describe "weeks/edit" do
+weeks/index	/home/adam/workspace/rails/administrantor/spec/views/weeks/index.html.erb_spec.rb	describe "weeks/index" do
+weeks/new	/home/adam/workspace/rails/administrantor/spec/views/weeks/new.html.erb_spec.rb	describe "weeks/new" do
+weeks/show	/home/adam/workspace/rails/administrantor/spec/views/weeks/show.html.erb_spec.rb	describe "weeks/show" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	describe "with invalid params" do
+with invalid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	describe "with invalid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/tariffs_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_types_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_weekly_schemas_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/duty_daily_schemas_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_dailies_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/weekly_plans_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/weeks_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_daily_schemas_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_tarrifs_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/presences_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boys_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/duty_dailies_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/altar_boy_duties_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/duty_weekly_schemas_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_weekly_schemas_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_types_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/service_daily_schemas_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	describe "with valid params" do
+with valid params	/home/adam/workspace/rails/administrantor/spec/controllers/celebration_dailies_controller_spec.rb	describe "with valid params" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/service_types_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/duty_dailies_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/service_types_tarrifs_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/presences_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/service_weekly_schemas_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/service_daily_schemas_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/weeks_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/altar_boy_duties_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/celebration_weekly_schemas_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/altar_boys_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/service_dailies_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/celebration_daily_schemas_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/duty_weekly_schemas_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/celebration_dailies_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/celebration_types_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/tariffs_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/duty_daily_schemas_spec.rb	it "works! (now write some real specs)" do
+works! (now write some real specs)	/home/adam/workspace/rails/administrantor/spec/requests/weekly_plans_spec.rb	it "works! (now write some real specs)" do

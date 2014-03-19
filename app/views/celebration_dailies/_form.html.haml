@@ -1,0 +1,13 @@
+= simple_form_for(@celebration_daily) do |f|
+  - if @celebration_daily.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@celebration_daily.errors.count, "error")
+        prohibited this celebration_daily from being saved:
+      %ul
+        - @celebration_daily.errors.full_messages.each do |msg|
+          %li= msg
+  = f.input :name
+  = f.input :hour
+  = f.association :celebration_type
+  = f.button :submit

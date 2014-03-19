@@ -1,0 +1,33 @@
+<h1>Listing presences</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Altar boy</th>
+      <th>Service daily</th>
+      <th>Day</th>
+      <th>Week</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @presences.each do |presence| %>
+      <tr>
+        <td><%= presence.altar_boy %></td>
+        <td><%= presence.service_daily %></td>
+        <td><%= presence.day %></td>
+        <td><%= presence.week %></td>
+        <td><%= link_to 'Show', presence %></td>
+        <td><%= link_to 'Edit', edit_presence_path(presence) %></td>
+        <td><%= link_to 'Destroy', presence, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Presence', new_presence_path %>

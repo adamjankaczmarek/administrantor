@@ -1,0 +1,2 @@
+module AltarBoyDutiesHelper
+end

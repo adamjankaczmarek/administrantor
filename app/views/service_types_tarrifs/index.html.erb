@@ -1,0 +1,31 @@
+<h1>Listing service_types_tarrifs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Service type</th>
+      <th>Tarrif</th>
+      <th>Points</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @service_types_tarrifs.each do |service_types_tarrif| %>
+      <tr>
+        <td><%= service_types_tarrif.service_type %></td>
+        <td><%= service_types_tarrif.tarrif %></td>
+        <td><%= service_types_tarrif.points %></td>
+        <td><%= link_to 'Show', service_types_tarrif %></td>
+        <td><%= link_to 'Edit', edit_service_types_tarrif_path(service_types_tarrif) %></td>
+        <td><%= link_to 'Destroy', service_types_tarrif, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Service types tarrif', new_service_types_tarrif_path %>
