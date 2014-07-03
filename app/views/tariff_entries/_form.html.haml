@@ -1,0 +1,19 @@
+= form_for @tariff_entry do |f|
+  - if @tariff_entry.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@tariff_entry.errors.count, "error")} prohibited this tariff_entry from being saved:"
+      %ul
+        - @tariff_entry.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :points
+    = f.text_field :points
+  .field
+    = f.label :tariff
+    = f.text_field :tariff
+  .field
+    = f.label :celebration_type
+    = f.text_field :celebration_type
+  .actions
+    = f.submit 'Save'

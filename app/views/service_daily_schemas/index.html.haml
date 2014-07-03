@@ -1,5 +1,5 @@
 %h1 Listing service_daily_schemas
-%table
+%table.table.table-striped
   %thead
     %tr
       %th Celebration daily schema
@@ -12,8 +12,8 @@
       %tr
         %td= service_daily_schema.celebration_daily_schema
         %td= service_daily_schema.name
-        %td= link_to 'Show', service_daily_schema
-        %td= link_to 'Edit', edit_service_daily_schema_path(service_daily_schema)
-        %td= link_to 'Destroy', service_daily_schema, method: :delete, data: { confirm: 'Are you sure?' }
+        %td= link_to 'Show', service_daily_schema, class: "btn-sm btn-info"
+        %td= link_to 'Edit', edit_service_daily_schema_path(service_daily_schema), class: "btn-sm btn-warning"
+        %td= link_to 'Destroy', service_daily_schema, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn-sm btn-danger"
 %br/
-= link_to 'New Service daily schema', new_service_daily_schema_path
+= link_to 'New Service daily schema', new_service_daily_schema_path, class: "btn btn-success"

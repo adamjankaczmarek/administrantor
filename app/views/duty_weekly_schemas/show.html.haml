@@ -1,28 +1,33 @@
-%p#notice= notice
-%p
-  %strong Sunday:
-  = @duty_weekly_schema.sunday
-%p
-  %strong Monday:
-  = @duty_weekly_schema.monday
-%p
-  %strong Tuesday:
-  = @duty_weekly_schema.tuesday
-%p
-  %strong Wednesday:
-  = @duty_weekly_schema.wednesday
-%p
-  %strong Thursday:
-  = @duty_weekly_schema.thursday
-%p
-  %strong Friday:
-  = @duty_weekly_schema.friday
-%p
-  %strong Saturday:
-  = @duty_weekly_schema.saturday
-%p
-  %strong Name:
+%h2
   = @duty_weekly_schema.name
-= link_to 'Edit', edit_duty_weekly_schema_path(@duty_weekly_schema)
+%div.panel.panel-default
+  %div.panel-heading Sunday:
+  %div.panel-body
+    = render "duty_daily_schema_show", :daily => @duty_weekly_schema.sunday
+%div.panel.panel-default
+  %div.panel-heading Monday:
+  %div.panel-body
+    = render "duty_daily_schema_show", :daily => @duty_weekly_schema.monday
+%div.panel.panel-default
+  %div.panel-heading Tuesday:
+  %div.panel-body
+    = render "duty_daily_schema_show", :daily => @duty_weekly_schema.tuesday
+%div.panel.panel-default
+  %div.panel-heading Wednesday:
+  %div.panel-body
+    = render "duty_daily_schema_show", :daily => @duty_weekly_schema.wednesday
+%div.panel.panel-default
+  %div.panel-heading Thursday:
+  %div.panel-body
+    = render "duty_daily_schema_show", :daily => @duty_weekly_schema.thursday
+%div.panel.panel-default
+  %div.panel-heading Friday:
+  %div.panel-body
+    = render "duty_daily_schema_show", :daily => @duty_weekly_schema.friday
+%div.panel.panel-default
+  %div.panel-heading Saturday:
+  %div.panel-body
+    = render "duty_daily_schema_show", :daily => @duty_weekly_schema.saturday
+= link_to 'Edit', edit_duty_weekly_schema_path(@duty_weekly_schema), :class => "btn btn-link"
 |
-\#{link_to 'Back', duty_weekly_schemas_path}
+= link_to 'Back', duty_weekly_schemas_path, :class => "btn btn-link"

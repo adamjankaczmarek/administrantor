@@ -21,22 +21,6 @@ class WeeklyPlansController < ApplicationController
   def edit
   end
 
-  # Ustaw schemat celebracji - tutaj będziemy tylko ustawiać gotowe schematy dzienne dla poszczególnych dni
-  def setup_celebrations
-    @weekly_plan = WeeklyPlan.find(params[:id])
-    @weekly_plan.celebration = CelebrationWeeklySchema.new
-  end
-
-  # Ustaw schemat służby - tutaj będziemy tylko ustawiać gotowe schematy dzienne dla poszczególnych dni - zgodne ze schematem celebracji
-  def setup_services
-    @weekly_plan = WeeklyPlan.find(parms[:id])
-    @celebration = @weekly_plan.celebration
-    @service_plan = ServiceWeeklySchema.fromCelebrationWeeklySchema(@celebration)
-
-   
-
-  end
-
   # POST /weekly_plans
   # POST /weekly_plans.json
   def create
@@ -85,6 +69,6 @@ class WeeklyPlansController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def weekly_plan_params
-      params.require(:weekly_plan).permit(:name, :celebration_id, :service_id, :duty_id)
+      params.require(:weekly_plan).permit(:name, :week_start, :week_end, :duty_weekly_schema_id)
     end
 end

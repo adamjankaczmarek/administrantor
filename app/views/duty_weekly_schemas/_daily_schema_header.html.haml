@@ -1,0 +1,5 @@
+- duties.each_with_index do |dd, dd_index|
+  %td
+    %div.vertical-text
+      %div.vertical-text__inner #{dd.service_name_s}
+    = hidden_field_tag "duty_weekly_schema[#{day}_attributes][duty_dailies_attributes][#{dd_index}][id]", dd.id

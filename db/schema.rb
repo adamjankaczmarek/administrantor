@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140103002409) do
+ActiveRecord::Schema.define(version: 20140426131928) do
 
   create_table "altar_boy_duties", force: true do |t|
     t.integer  "altar_boy_id"
@@ -114,16 +114,14 @@ ActiveRecord::Schema.define(version: 20140103002409) do
 
   create_table "presences", force: true do |t|
     t.integer  "altar_boy_id"
-    t.integer  "service_daily_id"
-    t.integer  "day"
-    t.integer  "week_id"
+    t.date     "date"
+    t.integer  "celebration_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   add_index "presences", ["altar_boy_id"], name: "index_presences_on_altar_boy_id"
-  add_index "presences", ["service_daily_id"], name: "index_presences_on_service_daily_id"
-  add_index "presences", ["week_id"], name: "index_presences_on_week_id"
+  add_index "presences", ["celebration_id"], name: "index_presences_on_celebration_id"
 
   create_table "service_dailies", force: true do |t|
     t.integer  "service_type_id"
@@ -185,6 +183,18 @@ ActiveRecord::Schema.define(version: 20140103002409) do
   add_index "service_weekly_schemas", ["tuesday_id"], name: "index_service_weekly_schemas_on_tuesday_id"
   add_index "service_weekly_schemas", ["wednesday_id"], name: "index_service_weekly_schemas_on_wednesday_id"
 
+  create_table "tariff_entries", force: true do |t|
+    t.float    "points"
+    t.integer  "tariff_id"
+    t.integer  "celebration_type_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "type"
+  end
+
+  add_index "tariff_entries", ["celebration_type_id"], name: "index_tariff_entries_on_celebration_type_id"
+  add_index "tariff_entries", ["tariff_id"], name: "index_tariff_entries_on_tariff_id"
+
   create_table "tariffs", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
@@ -193,16 +203,14 @@ ActiveRecord::Schema.define(version: 20140103002409) do
 
   create_table "weekly_plans", force: true do |t|
     t.string   "name"
-    t.integer  "celebration_id"
-    t.integer  "service_id"
-    t.integer  "duty_id"
+    t.date     "week_start"
+    t.date     "week_end"
+    t.integer  "duty_weekly_schema_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "weekly_plans", ["celebration_id"], name: "index_weekly_plans_on_celebration_id"
-  add_index "weekly_plans", ["duty_id"], name: "index_weekly_plans_on_duty_id"
-  add_index "weekly_plans", ["service_id"], name: "index_weekly_plans_on_service_id"
+  add_index "weekly_plans", ["duty_weekly_schema_id"], name: "index_weekly_plans_on_duty_weekly_schema_id"
 
   create_table "weeks", force: true do |t|
     t.integer  "year"

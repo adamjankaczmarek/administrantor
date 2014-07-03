@@ -1,7 +1,6 @@
-%p#notice= notice
 %p
   %strong Name:
   = @celebration_type.name
-= link_to 'Edit', edit_celebration_type_path(@celebration_type)
-|
-\#{link_to 'Back', celebration_types_path}
+= link_to 'Back', celebration_types_path, class: "btn btn-warning"
+= link_to 'Edit', edit_celebration_type_path(@celebration_type), class: "btn btn-success"
+

@@ -25,7 +25,7 @@ class TariffsController < ApplicationController
   # POST /tariffs.json
   def create
     @tariff = Tariff.new(tariff_params)
-
+    @tariff.create_entries()
     respond_to do |format|
       if @tariff.save
         format.html { redirect_to @tariff, notice: 'Tariff was successfully created.' }
@@ -69,6 +69,6 @@ class TariffsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def tariff_params
-      params.require(:tariff).permit(:name)
+      params.require(:tariff).permit(:name, :tariff_entries_attributes => [:id, :points])
     end
 end

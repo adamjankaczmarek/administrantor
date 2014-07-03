@@ -21,8 +21,20 @@ class ServiceDaily < ActiveRecord::Base
     duty_dailies.where(duty_daily_schema_id: duty_daily_schema_id).first
   end
 
+  def short_s
+    celebration_daily.to_s
+  end
+
   def to_s
     service_daily_schema.to_s + celebration_daily.to_s
+  end
+
+  def duty_s(duty_daily_schema_id)
+    if related != nil
+      related.duty_daily_for_schema(duty_daily_schema_id).to_s
+    else
+      duty_daily_for_schema(duty_daily_schema_id).to_s
+    end
   end
 
 end

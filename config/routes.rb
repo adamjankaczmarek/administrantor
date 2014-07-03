@@ -13,6 +13,8 @@ Administrantor::Application.routes.draw do  # The priority is based upon order o
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
+  get "/" => "weekly_plans#index", :as => "root"
+
   resources :altar_boys
   resources :altar_boy_duties
   resources :celebration_types
@@ -26,9 +28,11 @@ Administrantor::Application.routes.draw do  # The priority is based upon order o
   resources :duty_dailies
   resources :duty_daily_schemas
   resources :duty_weekly_schemas
+  resources :presences
+  resources :tariffs
+  resources :tariff_entries
   resources :weekly_plans
   resources :weeks
-  resources :tarrifs
 
   # Example resource route with options:
   #   resources :products do
@@ -55,7 +59,7 @@ Administrantor::Application.routes.draw do  # The priority is based upon order o
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

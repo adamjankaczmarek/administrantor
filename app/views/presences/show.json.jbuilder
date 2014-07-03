@@ -1,1 +1,1 @@
-json.extract! @presence, :altar_boy_id, :service_daily_id, :day, :week_id, :created_at, :updated_at
+json.extract! @presence, :id, :altar_boy_id, :date, :celebration_id, :created_at, :updated_at

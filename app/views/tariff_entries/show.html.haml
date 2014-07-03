@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Points:
+  = @tariff_entry.points
+%p
+  %b Tariff:
+  = @tariff_entry.tariff
+%p
+  %b Celebration type:
+  = @tariff_entry.celebration_type
+
+= link_to 'Edit', edit_tariff_entry_path(@tariff_entry)
+\|
+= link_to 'Back', tariff_entries_path

@@ -15,6 +15,10 @@ class DutyDailySchema < ActiveRecord::Base
   	return duty_daily_schema
   end
 
+  def service_dailies
+    service_daily_schema.service_dailies
+  end
+
   def to_s
   	s = "\n"
   	service_daily_schema.service_dailies.each_with_index do |svc, index|

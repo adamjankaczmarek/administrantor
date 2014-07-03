@@ -1,5 +1,5 @@
 %h1 Listing celebration_dailies
-%table
+%table.table.table-striped
   %thead
     %tr
       %th Name
@@ -14,8 +14,8 @@
         %td= celebration_daily.name
         %td= celebration_daily.hour
         %td= celebration_daily.celebration_type
-        %td= link_to 'Show', celebration_daily
-        %td= link_to 'Edit', edit_celebration_daily_path(celebration_daily)
-        %td= link_to 'Destroy', celebration_daily, method: :delete, data: { confirm: 'Are you sure?' }
+        %td= link_to 'Show', celebration_daily, class: "btn-sm btn-info"
+        %td= link_to 'Edit', edit_celebration_daily_path(celebration_daily), class: "btn-sm btn-warning"
+        %td= link_to 'Destroy', celebration_daily, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn-sm btn-danger"
 %br/
-= link_to 'New Celebration daily', new_celebration_daily_path
+= link_to 'New Celebration daily', new_celebration_daily_path, class: "btn btn-success"

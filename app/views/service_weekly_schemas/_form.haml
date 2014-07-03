@@ -1,11 +1,11 @@
-= simple_form_for @service_weekly_schema do |f|
-  = f.input :name
-  = f.association :sunday
-  = f.association :monday
-  = f.association :tuesday
-  = f.association :wednesday
-  = f.association :thursday
-  = f.association :friday
-  = f.association :saturday
+= bootstrap_form_for @service_weekly_schema do |f|
+  = f.text_field :name
+  = f.collection_select :sunday, ServiceDailySchema.all, :id, :name
+  = f.collection_select :monday, ServiceDailySchema.all, :id, :name
+  = f.collection_select :tuesday, ServiceDailySchema.all, :id, :name
+  = f.collection_select :wednesday, ServiceDailySchema.all, :id, :name
+  = f.collection_select :thursday, ServiceDailySchema.all, :id, :name
+  = f.collection_select :friday, ServiceDailySchema.all, :id, :name
+  = f.collection_select :saturday, ServiceDailySchema.all, :id, :name
   .actions
     = f.submit

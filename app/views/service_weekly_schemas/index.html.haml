@@ -1,5 +1,5 @@
 %h1 Listing service_weekly_schemas
-%table
+%table.table.table-striped
   %thead
     %tr
       %th Sunday
@@ -24,8 +24,8 @@
         %td= service_weekly_schema.friday
         %td= service_weekly_schema.saturday
         %td= service_weekly_schema.name
-        %td= link_to 'Show', service_weekly_schema
-        %td= link_to 'Edit', edit_service_weekly_schema_path(service_weekly_schema)
-        %td= link_to 'Destroy', service_weekly_schema, method: :delete, data: { confirm: 'Are you sure?' }
+        %td= link_to 'Show', service_weekly_schema, class: "btn-sm btn-info"
+        %td= link_to 'Edit', edit_service_weekly_schema_path(service_weekly_schema), class: "btn-sm btn-warning"
+        %td= link_to 'Destroy', service_weekly_schema, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn-sm btn-danger"
 %br/
-= link_to 'New Service weekly schema', new_service_weekly_schema_path
+= link_to 'New Service weekly schema', new_service_weekly_schema_path, class: "btn btn-success"

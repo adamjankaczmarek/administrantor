@@ -1,0 +1,16 @@
+%p
+  %strong Name:
+  = @tariff.name
+  %table.table.table-striped
+    %tr
+      - CelebrationType.all.each do |ctype|
+        %th #{ctype.name}
+    - @tariff.entries_by_ctype.values.each_with_index do |ctype_entries, index|
+      %tr
+        %td #{Tariff.entry_type_label(index, ctype_entries[0].celebration_type)}
+        - ctype_entries.each do |entry|
+          %td
+            #{entry.points}
+
+= link_to 'Edit', edit_tariff_path(@tariff), class: "btn btn-success"
+= link_to 'Back', tariffs_path, class: "btn btn-warning"

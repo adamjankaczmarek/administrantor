@@ -9,6 +9,7 @@ gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
@@ -45,8 +46,14 @@ gem 'unicorn'
 # gem 'debugger', group: [:development, :test]
 
 gem 'haml'
+gem 'haml-rails'
+gem 'haml-contrib'
 gem 'thin'
 gem 'pg'
+
+
+gem 'bootstrap-sass', '~> 3.1.1'
+gem 'bootstrap_form'
 
 
 group :test, :development do
@@ -64,8 +71,6 @@ group :test, :development do
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
   gem 'webrat'
-  #gem 'mocha'
-  #gem 'simple_form'
   gem 'cocoon'
   gem 'erb2haml'
   gem "slim"

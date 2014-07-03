@@ -1,0 +1,46 @@
+.navbar-header
+  %button.navbar-toggle{type: "button", 'data-toggle' => "collapse", 'data-target' => ".navbar-collapse"}
+    %span.icon-bar
+    %span.icon-bar
+    %span.icon-bar
+  = link_to "Administrantor", root_path, :class => 'navbar-brand'
+.navbar-collapse.collapse
+  %ul.nav.navbar-nav
+    %li
+      = link_to "Home", root_path
+    %li
+      = link_to "Altar Boys", altar_boys_path
+
+    %li.dropdown
+      %a.dropdown-toggle{href: '#', 'data-toggle' => 'dropdown'}
+        Celebrations
+      %ul.dropdown-menu
+        %li
+          = link_to "Celebration Types", celebration_types_path
+        %li
+          = link_to "Celebrations", celebration_dailies_path
+        %li
+          = link_to "Celebration Daily Schemas", celebration_daily_schemas_path
+        %li
+          = link_to "Celebration Weekly Schemas", celebration_weekly_schemas_path
+
+    %li.dropdown
+      %a.dropdown-toggle{href: '#', 'data-toggle' => 'dropdown'}
+        Services
+      %ul.dropdown-menu
+        %li
+          = link_to "Services", service_dailies_path
+        %li
+          = link_to "Service Daily Schemas", service_daily_schemas_path
+        %li
+          = link_to "Service Weekly Schemas", service_weekly_schemas_path
+
+
+    %li
+      = link_to "Duty Weekly", duty_weekly_schemas_path
+    %li
+      = link_to "Weekly Plans", weekly_plans_path
+    %li
+      = link_to "Tariff", tariffs_path
+    %li
+      = link_to "Presences", presences_path

@@ -3,8 +3,7 @@
 FactoryGirl.define do
   factory :presence do
     altar_boy nil
-    service_daily nil
-    day 1
-    week nil
+    date "2014-04-26"
+    celebration nil
   end
 end

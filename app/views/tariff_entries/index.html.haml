@@ -1,0 +1,23 @@
+%h1 Listing tariff_entries
+
+%table.table.table-striped
+  %tr
+    %th Points
+    %th Tariff
+    %th Celebration type
+    %th
+    %th
+    %th
+
+  - @tariff_entries.each do |tariff_entry|
+    %tr
+      %td= tariff_entry.points
+      %td= tariff_entry.tariff
+      %td= tariff_entry.celebration_type
+      %td= link_to 'Show', tariff_entry, class: "btn-sm btn-info"
+      %td= link_to 'Edit', edit_tariff_entry_path(tariff_entry), class: "btn-sm btn-warning"
+      %td= link_to 'Destroy', tariff_entry, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: "btn-sm btn-danger"
+
+%br
+
+= link_to 'New Tariff entry', new_tariff_entry_path, class: "btn btn-success"

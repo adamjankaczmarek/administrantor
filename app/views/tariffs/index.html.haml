@@ -1,0 +1,17 @@
+%h1 Listing tariffs
+%table.table.table-striped
+  %thead
+    %tr
+      %th Name
+      %th
+      %th
+      %th
+  %tbody
+    - @tariffs.each do |tariff|
+      %tr
+        %td= tariff.name
+        %td= link_to 'Show', tariff, class: "btn-sm btn-info"
+        %td= link_to 'Edit', edit_tariff_path(tariff), class: "btn-sm btn-warning"
+        %td= link_to 'Destroy', tariff, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn-sm btn-danger"
+%br/
+= link_to 'New Tariff', new_tariff_path, class: "btn-sm btn-success"

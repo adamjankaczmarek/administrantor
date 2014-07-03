@@ -13,6 +13,7 @@ class DutyWeeklySchema < ActiveRecord::Base
   belongs_to :friday, :class_name => 'DutyDailySchema', :foreign_key => 'friday_id'
   belongs_to :saturday, :class_name => 'DutyDailySchema', :foreign_key => 'saturday_id'
   belongs_to :service_weekly_schema
+  has_many :weekly_plans
 
   accepts_nested_attributes_for :sunday#, :reject_if => :all_blank, :allow_destroy => true
   accepts_nested_attributes_for :monday#, :reject_if => :all_blank, :allow_destroy => true

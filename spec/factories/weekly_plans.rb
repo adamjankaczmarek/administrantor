@@ -2,9 +2,9 @@
 
 FactoryGirl.define do
   factory :weekly_plan do
-    name "MyString"
-    celebration nil
-    service nil
-    duty nil
+    name ""
+    week_start ""
+    week_end ""
+    duty_weekly_schema nil
   end
 end

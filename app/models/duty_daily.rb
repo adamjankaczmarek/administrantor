@@ -15,6 +15,10 @@ class DutyDaily < ActiveRecord::Base
   	return duty_daily
   end
 
+  def service_name_s
+    service_daily.short_s
+  end
+
   def to_s
   	s = ""
   	altar_boys.each do |altar_boy|

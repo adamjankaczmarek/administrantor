@@ -1,0 +1,6 @@
+= simple_form_for(@tariff, html: {class: 'form-horizontal' }) do |f|
+  = f.input :name
+  = f.simple_fields_for :tariff_entries do |entry|
+    = entry.input :points, :label => Tariff.entry_type_label(entry.object.entry_type, entry.object.celebration_type)
+
+  = f.submit :class => "btn btn-success"

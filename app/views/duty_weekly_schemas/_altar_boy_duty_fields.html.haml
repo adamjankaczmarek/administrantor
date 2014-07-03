@@ -1,6 +1,4 @@
 .nested-fields.altar_boy-duty-fields
   #altar_boy_from_list
-  	= AltarBoy.all(:order => 'name') do |altar_boy|
-		= f.check_box :altar_boy
-  	= f.association :altar_boy, :collection => AltarBoy.all(:order => 'name'), :prompt => 'Choose an existing altar boy'
-  = link_to_remove_association "remove altar boy", f
+    = AltarBoy.all(:order => 'name') do |altar_boy|
+      = f.check_box

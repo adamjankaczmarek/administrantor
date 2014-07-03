@@ -19,6 +19,7 @@ class DutyWeeklySchemasController < ApplicationController
 
   # GET /duty_weekly_schemas/1/edit
   def edit
+    @altar_boys = AltarBoy.all(:order => "name")
   end
 
   # POST /duty_weekly_schemas

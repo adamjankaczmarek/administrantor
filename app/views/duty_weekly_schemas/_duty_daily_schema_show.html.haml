@@ -1,0 +1,6 @@
+%ul.list-group
+  - daily.service_dailies.each do |svc|
+    %li.list-group-item
+      %strong
+        = svc.short_s
+      = svc.duty_s(daily.id)

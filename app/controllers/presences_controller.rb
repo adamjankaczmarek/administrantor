@@ -69,6 +69,6 @@ class PresencesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def presence_params
-      params.require(:presence).permit(:altar_boy_id, :service_daily_id, :day, :week_id)
+      params.require(:presence).permit(:altar_boy_id, :date, :celebration_id)
     end
 end

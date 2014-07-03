@@ -23,7 +23,7 @@ describe WeeklyPlansController do
   # This should return the minimal set of attributes required to create a valid
   # WeeklyPlan. As you add validations to WeeklyPlan, be sure to
   # adjust the attributes here as well.
-  let(:valid_attributes) { { "name" => "MyString" } }
+  let(:valid_attributes) { { "name" => "" } }
 
   # This should return the minimal set of values that should be in the session
   # in order to pass any filters (e.g. authentication) defined in
@@ -106,8 +106,8 @@ describe WeeklyPlansController do
         # specifies that the WeeklyPlan created on the previous line
         # receives the :update_attributes message with whatever params are
         # submitted in the request.
-        WeeklyPlan.any_instance.should_receive(:update).with({ "name" => "MyString" })
-        put :update, {:id => weekly_plan.to_param, :weekly_plan => { "name" => "MyString" }}, valid_session
+        WeeklyPlan.any_instance.should_receive(:update).with({ "name" => "" })
+        put :update, {:id => weekly_plan.to_param, :weekly_plan => { "name" => "" }}, valid_session
       end
 
       it "assigns the requested weekly_plan as @weekly_plan" do

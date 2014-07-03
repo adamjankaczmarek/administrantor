@@ -1,31 +1,85 @@
 = simple_form_for(@duty_weekly_schema) do |f|
   = f.input :name
-  %h3 Sunday
-  = f.simple_fields_for :sunday do |sunday|
-    = render 'duty_daily_schema_fields', :f => sunday
 
-  %h3 Monday
-  = f.simple_fields_for :monday do |monday|
-    = render 'duty_daily_schema_fields', :f => monday
+  %div.table-responsive
+    %table.table.table-bordered.table-striped.table-hover
+      %thead
+        %tr
+          %td X
+          %td{:colspan => @duty_weekly_schema.sunday.duty_dailies.count} Sun
+          %td{:colspan => @duty_weekly_schema.monday.duty_dailies.count} Mon
+          %td{:colspan => @duty_weekly_schema.tuesday.duty_dailies.count} Tue
+          %td{:colspan => @duty_weekly_schema.wednesday.duty_dailies.count} Wed
+          %td{:colspan => @duty_weekly_schema.thursday.duty_dailies.count} Thu
+          %td{:colspan => @duty_weekly_schema.friday.duty_dailies.count} Fri
+          %td{:colspan => @duty_weekly_schema.saturday.duty_dailies.count} Sat
+      %tbody
+        %tr
+          %td X
+          = render 'daily_schema_header', :duties => @duty_weekly_schema.sunday.duty_dailies, :day => "sunday"
+          = hidden_field_tag "duty_weekly_schema[sunday_attributes][id]", @duty_weekly_schema.sunday.id
+          = render 'daily_schema_header', :duties => @duty_weekly_schema.monday.duty_dailies, :day => "monday"
+          = hidden_field_tag "duty_weekly_schema[monday_attributes][id]", @duty_weekly_schema.monday.id
+          = render 'daily_schema_header', :duties => @duty_weekly_schema.tuesday.duty_dailies, :day => "tuesday"
+          = hidden_field_tag "duty_weekly_schema[tuesday_attributes][id]", @duty_weekly_schema.tuesday.id
+          = render 'daily_schema_header', :duties => @duty_weekly_schema.wednesday.duty_dailies, :day => "wednesday"
+          = hidden_field_tag "duty_weekly_schema[wednesday_attributes][id]", @duty_weekly_schema.wednesday.id
+          = render 'daily_schema_header', :duties => @duty_weekly_schema.thursday.duty_dailies, :day => "thursday"
+          = hidden_field_tag "duty_weekly_schema[thursday_attributes][id]", @duty_weekly_schema.thursday.id
+          = render 'daily_schema_header', :duties => @duty_weekly_schema.friday.duty_dailies, :day => "friday"
+          = hidden_field_tag "duty_weekly_schema[friday_attributes][id]", @duty_weekly_schema.friday.id
+          = render 'daily_schema_header', :duties => @duty_weekly_schema.saturday.duty_dailies, :day => "saturday"
+          = hidden_field_tag "duty_weekly_schema[saturday_attributes][id]", @duty_weekly_schema.saturday.id
 
-  %h3 Tuesday
-  = f.simple_fields_for :tuesday do |tuesday|
-    = render 'duty_daily_schema_fields', :f => tuesday
+        - @altar_boys.each do |ab|
+          %tr
+            %td #{ab.name}
+            = render 'daily_schema_fields', :duties => @duty_weekly_schema.sunday.duty_dailies, :ab => ab, :f => f, :day => "sunday"
+            = render 'daily_schema_fields', :duties => @duty_weekly_schema.monday.duty_dailies, :ab => ab, :f => f, :day => "monday"
+            = render 'daily_schema_fields', :duties => @duty_weekly_schema.tuesday.duty_dailies, :ab => ab, :f => f, :day => "tuesday"
+            = render 'daily_schema_fields', :duties => @duty_weekly_schema.wednesday.duty_dailies, :ab => ab, :f => f, :day => "wednesday"
+            = render 'daily_schema_fields', :duties => @duty_weekly_schema.thursday.duty_dailies, :ab => ab, :f => f, :day => "thursday"
+            = render 'daily_schema_fields', :duties => @duty_weekly_schema.friday.duty_dailies, :ab => ab, :f => f, :day => "friday"
+            = render 'daily_schema_fields', :duties => @duty_weekly_schema.saturday.duty_dailies, :ab => ab, :f => f, :day => "saturday"
 
-  %h3 Wednesday
-  = f.simple_fields_for :wednesday do |wednesday|
-    = render 'duty_daily_schema_fields', :f => wednesday
+  / %table
+  /   %tr
+  /     - AltarBoy.all do |a_boy|
+  /       %td Sundaj
 
-  %h3 Thursday
-  = f.simple_fields_for :thursday do |thursday|
-    = render 'duty_daily_schema_fields', :f => thursday
+  /   %tr
+  /     %td Sunday
+  /   = f.simple_fields_for :sunday do |sunday|
+  /     = render 'duty_daily_schema_fields', :f => sunday
 
-  %h3 Friday
-  = f.simple_fields_for :friday do |friday|
-    = render 'duty_daily_schema_fields', :f => friday
+  /   %tr
+  /     %td Monday
+  /   = f.simple_fields_for :monday do |monday|
+  /     = render 'duty_daily_schema_fields', :f => monday
 
-  %h3 Saturday
-  = f.simple_fields_for :saturday do |saturday|
-    = render 'duty_daily_schema_fields', :f => saturday
+  /   %tr
+  /     %td Tuesday
+  /   = f.simple_fields_for :tuesday do |tuesday|
+  /     = render 'duty_daily_schema_fields', :f => tuesday
 
-  = f.submit
+  /   %tr
+  /     %td Wednesday
+  /   = f.simple_fields_for :wednesday do |wednesday|
+  /     = render 'duty_daily_schema_fields', :f => wednesday
+
+  /   %tr
+  /     %td Thursday
+  /   = f.simple_fields_for :thursday do |thursday|
+  /     = render 'duty_daily_schema_fields', :f => thursday
+
+  /   %tr
+  /     %td Friday
+  /   = f.simple_fields_for :friday do |friday|
+  /     = render 'duty_daily_schema_fields', :f => friday
+
+  /   %tr
+  /     %td Saturday
+  /   = f.simple_fields_for :saturday do |saturday|
+  /     = render 'duty_daily_schema_fields', :f => saturday
+
+  = f.submit 'Update plan', :class => "btn btn-primary"

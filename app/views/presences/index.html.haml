@@ -1,0 +1,23 @@
+%h1 Listing presences
+
+%table
+  %tr
+    %th Altar boy
+    %th Date
+    %th Celebration
+    %th
+    %th
+    %th
+
+  - @presences.each do |presence|
+    %tr
+      %td= presence.altar_boy
+      %td= presence.date
+      %td= presence.celebration
+      %td= link_to 'Show', presence
+      %td= link_to 'Edit', edit_presence_path(presence)
+      %td= link_to 'Destroy', presence, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Presence', new_presence_path

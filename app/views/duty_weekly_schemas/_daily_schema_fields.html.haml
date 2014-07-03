@@ -1,0 +1,3 @@
+- duties.each_with_index do |dd, dd_index|
+  %td
+    = check_box_tag "duty_weekly_schema[#{day}_attributes][duty_dailies_attributes][#{dd_index}][altar_boy_ids][]", "#{ab.id}", dd.altar_boys.include?(ab)

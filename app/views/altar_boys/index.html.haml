@@ -1,0 +1,17 @@
+%h1 Listing altar_boys
+%table.table.table-striped
+  %thead
+    %tr
+      %th Name
+      %th
+      %th
+      %th
+  %tbody
+    - @altar_boys.each do |altar_boy|
+      %tr
+        %td= altar_boy.name
+        %td= link_to 'Show', altar_boy, class: "btn-sm btn-info"
+        %td= link_to 'Edit', edit_altar_boy_path(altar_boy), class: "btn-sm btn-warning"
+        %td= link_to 'Destroy', altar_boy, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn-sm btn-danger"
+
+= link_to 'New Altar boy', new_altar_boy_path, class: "btn btn-success"

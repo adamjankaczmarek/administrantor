@@ -1,23 +1,25 @@
 %h1 Listing weekly_plans
-%table
-  %thead
+
+%table.table.table-striped
+  %tr
+    %th Name
+    %th Week start
+    %th Week end
+    %th Duty weekly schema
+    %th
+    %th
+    %th
+
+  - @weekly_plans.each do |weekly_plan|
     %tr
-      %th Name
-      %th Celebration
-      %th Service
-      %th Duty
-      %th
-      %th
-      %th
-  %tbody
-    - @weekly_plans.each do |weekly_plan|
-      %tr
-        %td= weekly_plan.name
-        %td= weekly_plan.celebration
-        %td= weekly_plan.service
-        %td= weekly_plan.duty
-        %td= link_to 'Show', weekly_plan
-        %td= link_to 'Edit', edit_weekly_plan_path(weekly_plan)
-        %td= link_to 'Destroy', weekly_plan, method: :delete, data: { confirm: 'Are you sure?' }
-%br/
-= link_to 'New Weekly plan', new_weekly_plan_path
+      %td= weekly_plan.name
+      %td= weekly_plan.week_start
+      %td= weekly_plan.week_end
+      %td= weekly_plan.duty_weekly_schema
+      %td= link_to 'Show', weekly_plan, class: "btn-sm btn-info"
+      %td= link_to 'Edit', edit_weekly_plan_path(weekly_plan), class: "btn-sm btn-warning"
+      %td= link_to 'Destroy', weekly_plan, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: "btn-sm btn-danger"
+
+%br
+
+= link_to 'New Weekly plan', new_weekly_plan_path, class: "btn btn-success"
